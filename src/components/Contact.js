@@ -22,8 +22,8 @@ const Contact = () => {
             <input type="text" placeholder="John Doe" />
             <label>Email Address</label>
             <input text="email" placeholder="eddress@email.mail" />
-            <label>Your Message</label>
-            <textarea />
+            {/* <label>Message</label> */}
+            <textarea placeholder="Message" />
             <div>
               <SecondaryButton text="Send" style={`contact-button`} />
             </div>
