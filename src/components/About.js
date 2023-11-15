@@ -1,7 +1,7 @@
 // import { useState } from "react";
 
 import profilePic from "./assets/profilePicture.png";
-import ProgressBar from "@asyrafhussin/react-progress-bar";
+import ProgressBar from "./assets/progress-bar";
 
 const About = () => {
   // const [isFilled, setIsFilled] = useState(0);
@@ -19,20 +19,8 @@ const About = () => {
     return skillsVaiables.map((item, index) => (
       <div className="about-me-pogression-bar" key={index}>
         <p>{item}</p>
-        <ProgressBar
-          completed="0K"
-          maxCompleted={100}
-          bgColor="#f05454"
-          height="2rem"
-          width="100%"
-          borderRadius="0px"
-          animateOnRender={true}
-          className="wrapper"
-          barContainerClassName="container"
-          completedClassName="barCompleted"
-          labelClassName="label"
-        />
-        {/* <p>OK</p> */}
+        <ProgressBar />
+        <p>0K</p>
       </div>
     ));
   };

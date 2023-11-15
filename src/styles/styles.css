@@ -225,6 +225,7 @@ summary,
   flex-direction: column;
   height: 100%;
   width: 100%;
+  margin-bottom: 5rem;
   /* border: 1px solid white; */
 }
 
@@ -313,6 +314,7 @@ summary,
   background-color: transparent;
   font-family: "Source Code Pro", monospace;
   font-weight: 600;
+  /* border-bottom: 1px solid #30475e; */
 }
 
 .project-button-active {
@@ -405,6 +407,7 @@ summary,
   padding-left: 1rem;
   outline: none;
   color: #dddddd;
+  box-shadow: inset 0px 0px 5px 0px #222831;
 }
 
 .contact-form-container textarea {
@@ -417,6 +420,7 @@ summary,
   color: #dddddd;
   padding: 1rem;
   font-size: 1.4rem;
+  box-shadow: inset 0px 0px 5px 0px #222831;
 }
 
 .contact-form-container div {
@@ -424,7 +428,7 @@ summary,
   align-items: center;
   justify-content: flex-end;
   width: 100%;
-  margin: 2rem 0;
+  margin: 2rem 0 1rem 0;
 }
 
 .contact-button {
@@ -490,8 +494,8 @@ summary,
 
 .progress-bar {
   background-color: #1a1a1a;
-  height: 2rem;
-  width: 220px;
+  height: 1.5rem;
+  width: 200px;
   /* margin-right: 1rem; */
   box-shadow: 0 1px 5px #00000065 inset, 0 1px 0 #44444444;
 }
@@ -502,17 +506,17 @@ summary,
 
 .progress-bar-inner {
   display: block;
-  height: 2rem;
+  height: 1.5rem;
   width: 0%;
-  background-color: #f0545499;
+  background-color: #30475e;
   position: relative;
   animation: auto-progress 3000ms linear;
   animation-iteration-count: 1;
 }
 
-/* .progress-bar-inner {
+.progress-bar-inner {
   width: 100%;
-} */
+}
 /* POGRESS BAR LOOADER END */
 
 /* Larger than mobile */
