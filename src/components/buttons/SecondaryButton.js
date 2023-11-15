@@ -1,4 +1,4 @@
-const PrimaryButton = ({ action, text, style, id }) => {
+const SecondaryButton = ({ action, text, style, id }) => {
   return (
     <>
       <button className={style} onClick={action} id={id}>
@@ -8,4 +8,4 @@ const PrimaryButton = ({ action, text, style, id }) => {
   );
 };
 
-export default PrimaryButton;
+export default SecondaryButton;

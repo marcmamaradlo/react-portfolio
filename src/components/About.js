@@ -1,41 +1,95 @@
-import profilePic from './assets/profilePicture.png';
+// import { useState } from "react";
+
+import profilePic from "./assets/profilePicture.png";
+import ProgressBar from "@asyrafhussin/react-progress-bar";
 
 const About = () => {
+  // const [isFilled, setIsFilled] = useState(0);
+  // const [isRunning, setIsRunning] = useState(false);
+  const skillsVaiables = [
+    "HTML",
+    "CSS",
+    "Javascipt",
+    "React JS",
+    "Bootstrap",
+    "Tailwind",
+  ];
+
+  const showSkills = () => {
+    return skillsVaiables.map((item, index) => (
+      <div className="about-me-pogression-bar" key={index}>
+        <p>{item}</p>
+        <ProgressBar
+          completed="0K"
+          maxCompleted={100}
+          bgColor="#f05454"
+          height="2rem"
+          width="100%"
+          borderRadius="0px"
+          animateOnRender={true}
+          className="wrapper"
+          barContainerClassName="container"
+          completedClassName="barCompleted"
+          labelClassName="label"
+        />
+        {/* <p>OK</p> */}
+      </div>
+    ));
+  };
+
   return (
-    <div className='container'>
-      <section className='about'>
+    <div className="container">
+      <section className="about">
         <h2>
-          <span>{'<'}</span>
+          <span>{"<"}</span>
           About
-          <span>{'/>'}</span>
+          <span>{"/>"}</span>
         </h2>
-        <div className='about-content-container'>
-          <div className='about-content-div'>
+        <div className="about-content-container">
+          <div className="about-content-div">
             <h3>Modern</h3>
-            <p> Minimalistic and clutter free. Simplicity is an integral part of a good website design.</p>
+            <p>
+              {" "}
+              Minimalistic and clutter free. Simplicity is an integral part of a
+              good website design.
+            </p>
           </div>
-          <div className='about-content-div'>
+          <div className="about-content-div">
             <h3>Responsive</h3>
-            <p>With mobile first design, Layouts will be compatible on all devices.</p>
+            <p>
+              With mobile first design, Layouts will be compatible on all
+              devices.
+            </p>
           </div>
-          <div className='about-content-div'>
+          <div className="about-content-div">
             <h3>Fast</h3>
-            <p>Using the latest frameworks to make websites lag free and load as fast as posible.</p>
+            <p>
+              Using the latest frameworks to make websites lag free and load as
+              fast as posible.
+            </p>
           </div>
-          <div className='about-content-div'>
+          <div className="about-content-div">
             <h3>Ease of Use</h3>
             <p>Websites are easy to use and provide a good user experience.</p>
           </div>
         </div>
-        <div className='about-me'>
-          <img src={profilePic} alt='Profile-Picture' />
+        <div className="about-me-container">
+          <div className="about-me">
+            <img src={profilePic} alt="Profile" />
+          </div>
+          <div className="about-skills">
+            <h3 className="text-align-center">Who am I?</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Tristique senectus et netus et.
+            </p>
+          </div>
         </div>
-        <div className='about-skills'>
-
-        </div>
+        <div className="about-me-skill-container">{showSkills()}</div>
       </section>
     </div>
-  )
-}
+  );
+};
 
 export default About;

@@ -1,5 +1,5 @@
 /* Mobile first queries */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Source Code Pro', monospace; */
@@ -29,8 +29,8 @@ html {
 body {
   font-size: 1.6rem;
   overflow-x: hidden;
-  color: #DDDDDD;
-  font-family: 'Source Code Pro', monospace;
+  color: #dddddd;
+  font-family: "Source Code Pro", monospace;
   scrollbar-width: none;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -78,11 +78,33 @@ label,
 button,
 select,
 summary,
-[type=radio],
-[type=submit],
-[type=checkbox] {
+[type="radio"],
+[type="submit"],
+[type="checkbox"] {
   cursor: pointer;
 }
+
+/* BUTTONS START */
+.primary-button {
+  height: 3rem;
+  border: none;
+  outline: none;
+  padding: 0 2rem;
+  margin: 2rem 0;
+  background-color: transparent;
+  border: 1px solid #dddddd;
+  color: #dddddd;
+  font-family: "Roboto", sans-serif;
+}
+
+.primary-button:hover {
+  background-color: #f05454;
+  outline-color: #dddddd;
+  transition: all 200ms;
+  border: 1px solid #f05454;
+}
+
+/* BUTTONS END */
 
 .main-container {
   display: flex;
@@ -112,22 +134,22 @@ summary,
   flex-direction: column;
   height: 100vh;
   width: 100%;
+  /* border: 1px solid #DDDDDD; */
 }
 
 .banner h1 {
   font-size: 2.7rem;
-  text-align: left;
+  /* text-align: left; */
   width: 100%;
 }
 
 .banner p {
-  color: #F05454;
-  text-align: left;
+  color: #f05454;
   width: 100%;
 }
 
 .banner span {
-  color: #30475E;
+  color: #30475e;
 }
 
 .banner-button {
@@ -145,16 +167,16 @@ summary,
   outline: none;
   padding: 0 2rem;
   background-color: transparent;
-  border: 1px solid #DDDDDD;
-  color: #DDDDDD;
-  font-family: 'Roboto', sans-serif;
+  border: 1px solid #dddddd;
+  color: #dddddd;
+  font-family: "Roboto", sans-serif;
 }
 
 .banner-button button:hover {
-  background-color: #F05454;
-  outline-color: #DDDDDD;
+  background-color: #f05454;
+  outline-color: #dddddd;
   transition: all 200ms;
-  border: 1px solid #F05454;
+  border: 1px solid #f05454;
 }
 
 .navbar {
@@ -178,12 +200,12 @@ summary,
 }
 
 .navbar-logo a {
-  color: #F05454;
+  color: #f05454;
   text-decoration: none;
 }
 
 .navbar-logo p {
-  color: #F05454;
+  color: #f05454;
   font-size: 2rem;
 }
 
@@ -192,7 +214,7 @@ summary,
 }
 
 .hamburger-icon i:hover {
-  color: #F05454;
+  color: #f05454;
   transition: 200ms;
 }
 
@@ -207,7 +229,7 @@ summary,
 }
 
 .about h2 {
-  color: #F05454;
+  color: #f05454;
 }
 
 .about-content-container {
@@ -220,15 +242,15 @@ summary,
   justify-content: center;
   flex-direction: column;
   margin: 3rem 0;
-  border: 1px solid #30475E33;
+  border: 1px solid #30475e33;
   padding: 1rem;
   min-height: 12rem;
 }
 
 .about-content-div:hover {
   background-color: #222831;
-  border: 1px solid #30475E;
-  color: #F05454;
+  border: 1px solid #30475e;
+  color: #f05454;
   /* transform: scale(1.005); */
   transition: all 200ms;
 }
@@ -245,24 +267,273 @@ summary,
   font-size: 1.5rem;
 }
 
+.about-skills,
+.about-skills p {
+  margin: 2rem 0;
+}
+
+.about-me-skill-container {
+  width: 100%;
+}
+
+.about-me-pogression-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+}
+
+.about-me-pogression-bar p:first-of-type {
+  width: 10rem;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project h2 {
+  color: #f05454;
+}
+
+.project-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.project-button {
+  height: 4rem;
+  min-width: 11.3rem;
+  color: #dddddd;
+  background-color: transparent;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+}
+
+.project-button-active {
+  height: 4rem;
+  min-width: 11.3rem;
+  color: #dddddd;
+  background-color: #30475e;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.projects-container-image {
+  margin-bottom: 2.5rem;
+  width: 33.7rem;
+  height: 40rem;
+  cursor: pointer;
+}
+
+.projects-container-image div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 30%,
+    black 100%
+  );
+  color: #dddddd;
+}
+
+.projects-container-image div p {
+  text-align: center;
+}
+
+/* FORM SECTION START */
+
+.contact {
+  width: 100%;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #f05454;
+}
+
+.contact-text {
+  margin-bottom: 3rem;
+}
+
+.contact-text p {
+  text-align: justify;
+}
+
+.contact-form-container form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  width: 100%;
+  border: 1px solid #30475e;
+  padding: 1rem;
+}
+
+.contact-form-container label,
+.contact-form-container input {
+  background-color: transparent;
+  width: 100%;
+}
+
+.contact-form-container input {
+  border: 1px solid #30475e;
+  margin: 1rem 0;
+  height: 3rem;
+  padding-left: 1rem;
+  outline: none;
+  color: #dddddd;
+}
+
+.contact-form-container textarea {
+  border: 1px solid #30475e;
+  outline: none;
+  background-color: #30475e;
+  width: 100%;
+  height: 15rem;
+  margin-top: 1rem;
+  color: #dddddd;
+  padding: 1rem;
+  font-size: 1.4rem;
+}
+
+.contact-form-container div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.contact-button {
+  height: 4rem;
+  min-width: 11.3rem;
+  color: #dddddd;
+  background-color: transparent;
+  border: 1px solid #30475e;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+}
+
+.contact-button:hover {
+  color: #dddddd;
+  background-color: #30475e;
+}
+
+/* FORM SECTION END */
+
+/* EXTRA CLASSES START */
+
+.display-none {
+  visibility: hidden;
+}
+
 .margin-bottom-2rem {
   margin-bottom: 2rem;
 }
 
+.text-align-left {
+  text-align: left;
+}
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+/* EXTRA CLASSES END */
+
+/* POGRESS BAR LOOADER START */
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes auto-progress {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.progress-bar {
+  background-color: #1a1a1a;
+  height: 2rem;
+  width: 220px;
+  /* margin-right: 1rem; */
+  box-shadow: 0 1px 5px #00000065 inset, 0 1px 0 #44444444;
+}
+
+.progress-bar-bgcolor {
+  background-color: transparent;
+}
+
+.progress-bar-inner {
+  display: block;
+  height: 2rem;
+  width: 0%;
+  background-color: #f0545499;
+  position: relative;
+  animation: auto-progress 3000ms linear;
+  animation-iteration-count: 1;
+}
+
+/* .progress-bar-inner {
+  width: 100%;
+} */
+/* POGRESS BAR LOOADER END */
+
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+}
 
 /* Larger than phablet */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+}
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
 
 @media (prefers-reduced-motion: no-preference) {
   html {
