@@ -1,28 +1,32 @@
 {
   "name": [
     {
-      "name": "sample1",
-      "url": "https://images.unsplash.com/photo-1552879574-e1a9ae64c38a?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "framework": "javascript",
-      "text": "text javascirpt"
+      "name": "SM Residences",
+      "url": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaAdCzTtVY-FA5VvE7CySvp2mHXqgQ6mHYchchGFdEw-5pBpH7SIm12law23CckhEX9j_GFHMW5aIM8huMZsj6hDI5DBOg=s1600",
+      "framework": "reactjs",
+      "text": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences",
+      "description": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences. SM Residences is a subsidiary of SM Development Corporation (SMDC), one of the leading real estate developers in the Philippines. SMDC has a proven track record of delivering high-quality properties that appreciate in value over time. SM Residences offers a range of amenities and features that cater to your lifestyle needs and preferences, including breathtaking views, state-of-the-art facilities, and convenient access to transportation and commercial hubs. Investing in SMDC properties comes with numerous benefits, including a high potential for appreciation in value, a range of investment options that cater to different budgets and preferences, and a secure and profitable investment for your future."
     },
     {
-      "name": "sample2",
-      "url": "https://images.unsplash.com/photo-1629019416996-712aa1bd87f4?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "name": "Charm's Foodies",
+      "url": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBnRihULohA4V3BaxUnEyYEbPkd8bArsRCRL4ssk895-KHbdDPIQ7-5DWc99BV1XyIr7Exc4nAbjB8Dieygs-ooX3uHEw=s1600",
       "framework": "reactjs",
-      "text": "text reactjs"
+      "text": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences",
+      "description": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences. SM Residences is a subsidiary of SM Development Corporation (SMDC), one of the leading real estate developers in the Philippines. SMDC has a proven track record of delivering high-quality properties that appreciate in value over time. SM Residences offers a range of amenities and features that cater to your lifestyle needs and preferences, including breathtaking views, state-of-the-art facilities, and convenient access to transportation and commercial hubs. Investing in SMDC properties comes with numerous benefits, including a high potential for appreciation in value, a range of investment options that cater to different budgets and preferences, and a secure and profitable investment for your future."
     },
     {
-      "name": "sample3",
-      "url": "https://images.unsplash.com/photo-1648569883125-d01072540b4c?q=80&w=1336&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "name": "Streaming Website",
+      "url": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCQV6caxKoaMZwSAzu8PU3guNFYHGvCUNfDnQRmMANls3fjOuxvNvhgkeJNfzOgLFdvdM0ncy4oBrA-gRHRmfkNPPZkHg=s1600",
       "framework": "reactjs",
-      "text": "text reactjs"
+      "text": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences",
+      "description": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences. SM Residences is a subsidiary of SM Development Corporation (SMDC), one of the leading real estate developers in the Philippines. SMDC has a proven track record of delivering high-quality properties that appreciate in value over time. SM Residences offers a range of amenities and features that cater to your lifestyle needs and preferences, including breathtaking views, state-of-the-art facilities, and convenient access to transportation and commercial hubs. Investing in SMDC properties comes with numerous benefits, including a high potential for appreciation in value, a range of investment options that cater to different budgets and preferences, and a secure and profitable investment for your future."
     },
     {
       "name": "sample4",
       "url": "https://images.unsplash.com/photo-1566657817181-c69e4a8eeb1e?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "framework": "javascript",
-      "text": "text javascript"
+      "text": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences",
+      "description": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences. SM Residences is a subsidiary of SM Development Corporation (SMDC), one of the leading real estate developers in the Philippines. SMDC has a proven track record of delivering high-quality properties that appreciate in value over time. SM Residences offers a range of amenities and features that cater to your lifestyle needs and preferences, including breathtaking views, state-of-the-art facilities, and convenient access to transportation and commercial hubs. Investing in SMDC properties comes with numerous benefits, including a high potential for appreciation in value, a range of investment options that cater to different budgets and preferences, and a secure and profitable investment for your future."
     }
   ]
 }

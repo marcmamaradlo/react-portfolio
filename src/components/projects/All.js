@@ -34,11 +34,7 @@ const AllProjects = ({
             text={"View Page"}
             action={submit}
           />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus
-            in ornare quam viverra orci sagittis.
-          </p>
+          <p>{item.text}</p>
         </div>
       </div>
     ));
