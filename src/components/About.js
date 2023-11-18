@@ -1,11 +1,7 @@
-// import { useState } from "react";
-
 import profilePic from "./assets/profilePicture.png";
 import ProgressBar from "./assets/progress-bar";
 
 const About = () => {
-  // const [isFilled, setIsFilled] = useState(0);
-  // const [isRunning, setIsRunning] = useState(false);
   const skillsVaiables = [
     "HTML",
     "CSS",
