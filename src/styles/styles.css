@@ -103,9 +103,9 @@ summary,
   transition: all 200ms;
   border: 1px solid #f05454;
 }
-
 /* BUTTONS END */
 
+/* MAIN CONTAINERS STARRT */
 .main-container {
   display: flex;
   align-items: center;
@@ -113,7 +113,6 @@ summary,
   flex-direction: column;
   position: absolute;
   width: 100%;
-  /* height: 100%; */
 }
 
 .container {
@@ -123,10 +122,10 @@ summary,
   justify-content: center;
   flex-direction: column;
   width: 90%;
-  /* width: 100%;
-  height: 100%; */
 }
+/* MAIN CONTAINERS END */
 
+/* BANNER CONTAINER START */
 .banner {
   display: flex;
   align-items: center;
@@ -134,12 +133,10 @@ summary,
   flex-direction: column;
   height: 100vh;
   width: 100%;
-  /* border: 1px solid #DDDDDD; */
 }
 
 .banner h1 {
   font-size: 4rem;
-  /* text-align: left; */
   width: 100%;
 }
 
@@ -156,12 +153,10 @@ summary,
   display: flex;
   justify-content: flex-start;
   width: 100%;
-  /* border: 1px solid #DDDDDD; */
   margin-top: 2rem;
 }
 
 .banner-button button {
-  /* width: 100%; */
   height: 3rem;
   border: none;
   outline: none;
@@ -178,7 +173,9 @@ summary,
   transition: all 200ms;
   border: 1px solid #f05454;
 }
+/* BANNER CONTAINER END */
 
+/* NAVBAR CONTAINER START */
 .navbar {
   position: fixed;
   top: 0;
@@ -187,9 +184,7 @@ summary,
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  /* border-bottom: 1px solid #30475E; */
   background-color: #222831;
-  /* background-color: #DDDDDD; */
   padding: 0 2rem;
   height: 5rem;
   z-index: 1000;
@@ -217,7 +212,9 @@ summary,
   color: #f05454;
   transition: 200ms;
 }
+/* NAVBAR CONTAINER END */
 
+/* ABOUT CONTAINER START */
 .about {
   display: flex;
   align-items: center;
@@ -226,7 +223,6 @@ summary,
   height: 100%;
   width: 100%;
   margin-bottom: 5rem;
-  /* border: 1px solid white; */
 }
 
 .about h2 {
@@ -287,7 +283,9 @@ summary,
 .about-me-pogression-bar p:first-of-type {
   width: 10rem;
 }
+/* ABOUT CONTAINER END */
 
+/* PROJECT CONTAINER START */
 .project {
   display: flex;
   align-items: center;
@@ -314,7 +312,6 @@ summary,
   background-color: transparent;
   font-family: "Source Code Pro", monospace;
   font-weight: 600;
-  /* border-bottom: 1px solid #30475e; */
 }
 
 .project-button-active {
@@ -362,8 +359,9 @@ summary,
 .projects-container-image div p {
   text-align: center;
 }
+/* PROJECT CONTAINER END */
 
-/* FORM SECTION START */
+/* CONTACT FORM SECTION START */
 
 .contact {
   width: 100%;
@@ -450,11 +448,9 @@ summary,
   color: #dddddd;
   background-color: #30475e;
 }
-
-/* FORM SECTION END */
+/* CONTACT FORM SECTION END */
 
 /* EXTRA CLASSES START */
-
 .display-none {
   visibility: hidden;
 }
@@ -473,7 +469,6 @@ summary,
 .text-align-center {
   text-align: center;
 }
-
 /* EXTRA CLASSES END */
 
 /* POGRESS BAR LOOADER START */
