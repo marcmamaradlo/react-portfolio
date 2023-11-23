@@ -4,12 +4,14 @@ import PrimaryButton from "../buttons/PrimaryButton";
 import AllProjects from "./All";
 import Javascript from "./JS";
 import Reactjs from "./Reactjs";
+import Modal from "../Modal";
 
 const Projects = () => {
   const [sampleImage, setSampleImage] = useState("");
   // eslint-disable-next-line
   const [onHover, setOnHover] = useState(true);
   const [projectButtons, setProjectButtons] = useState("all");
+  const [modalActive, setModalActive] = useState(false);
 
   const handleMouseEnter = (e) => {
     setSampleImage(e.target.id);
@@ -25,6 +27,15 @@ const Projects = () => {
 
   const handleButtons = (e) => {
     e.preventDefault();
+    setModalActive(true);
+  };
+
+  const handleCloseModal = () => {
+    setModalActive(false);
+  };
+
+  const handleModal = () => {
+    return modalActive ? <Modal handleCloseModal={handleCloseModal} /> : null;
   };
 
   useEffect(() => {
@@ -99,6 +110,7 @@ const Projects = () => {
           />
         )}
       </div>
+      {handleModal()}
     </div>
   );
 };

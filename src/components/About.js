@@ -1,25 +1,26 @@
 import profilePic from "./assets/profilePicture.png";
-import ProgressBar from "./assets/progress-bar";
+// import ProgressBar from "./assets/progress-bar";
 
 const About = () => {
-  const skillsVaiables = [
-    "HTML",
-    "CSS",
-    "Javascipt",
-    "React JS",
-    "Bootstrap",
-    "Tailwind",
-  ];
+  // const About = () => {
+  //   const skillsVaiables = [
+  //     "HTML",
+  //     "CSS",
+  //     "Javascipt",
+  //     "React JS",
+  //     "Bootstrap",
+  //     "Tailwind",
+  //   ];
 
-  const showSkills = () => {
-    return skillsVaiables.map((item, index) => (
-      <div className="about-me-pogression-bar" key={index}>
-        <p>{item}</p>
-        <ProgressBar />
-        <p>0K</p>
-      </div>
-    ));
-  };
+  // const showSkills = () => {
+  //   return skillsVaiables.map((item, index) => (
+  //     <div className="about-me-pogression-bar" key={index}>
+  //       <p>{item}</p>
+  //       <ProgressBar />
+  //       <p>0K</p>
+  //     </div>
+  //   ));
+  // };
 
   return (
     <div className="container">
@@ -70,7 +71,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="about-me-skill-container">{showSkills()}</div>
+        <div className="about-me-skill-container">{/* {showSkills()} */}</div>
       </section>
     </div>
   );
