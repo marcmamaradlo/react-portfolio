@@ -406,7 +406,7 @@ summary,
 }
 
 .contact-form-container label {
-  color: #30475e;
+  color: #f05454;
 }
 
 .contact-form-container input {
@@ -418,6 +418,11 @@ summary,
   outline: none;
   color: #dddddd;
   box-shadow: inset 0px 0px 5px 0px #222831;
+}
+
+.contact-form-container input::placeholder,
+.contact-form-container textarea::placeholder {
+  color: #dddddd;
 }
 
 .contact-form-container textarea {

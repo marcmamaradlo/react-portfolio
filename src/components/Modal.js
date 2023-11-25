@@ -3,13 +3,19 @@ const Modal = ({ handleCloseModal, dataName }) => {
   const data = dataName;
 
   const handleTech = () => {
-    return data.tech.map((item, index) => <p key={index}>{item}</p>);
+    return data.tech
+      ? data.tech.map((item, index) => <p key={index}>{item}</p>)
+      : null;
   };
 
   const handleImageInCarousel = () => {
-    return data.imageCarousel.map((item, index) => (
-      <img src={item} alt={index} />
-    ));
+    return data.imageCarousel
+      ? data.imageCarousel.map((item, index) => <img src={item} alt={index} />)
+      : null;
+  };
+
+  const handleImageBanner = () => {
+    return data.imageBanner ? data.imageBanner : null;
   };
 
   return (
@@ -23,7 +29,7 @@ const Modal = ({ handleCloseModal, dataName }) => {
         </div>
         <div className="modal-container">
           <div className="modal-banner">
-            <img src={data.imageBanner} alt={data.name} />
+            <img src={handleImageBanner()} alt={data.name} />
           </div>
           <div className="modal-image-carousel">{handleImageInCarousel()}</div>
           <div className="modal-description">
