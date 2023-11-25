@@ -1,5 +1,6 @@
 // import sampleImage from "../assets/sampleImage.jpg";
 import { useState, useEffect } from "react";
+import projectsJSON from "../projects.json";
 import PrimaryButton from "../buttons/PrimaryButton";
 import AllProjects from "./All";
 import Javascript from "./JS";
@@ -35,7 +36,19 @@ const Projects = () => {
   };
 
   const handleModal = () => {
-    return modalActive ? <Modal handleCloseModal={handleCloseModal} /> : null;
+    const dataName = projectsJSON.name.filter(
+      (obj) => obj.name === sampleImage
+    );
+
+    return dataName.map((item) =>
+      modalActive ? (
+        <Modal handleCloseModal={handleCloseModal} dataName={item} />
+      ) : null
+    );
+
+    // return modalActive ? (
+    //   <Modal handleCloseModal={handleCloseModal} dataName={dataName} />
+    // ) : null;
   };
 
   useEffect(() => {

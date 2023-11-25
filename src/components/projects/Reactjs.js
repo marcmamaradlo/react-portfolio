@@ -18,7 +18,7 @@ const Reactjs = ({
         id={item.name}
         name={item.name}
         style={{
-          backgroundImage: `url(${item.url})`,
+          backgroundImage: `url(${item.imageProfile})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",

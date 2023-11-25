@@ -2,7 +2,9 @@
   "name": [
     {
       "name": "SM Residences",
-      "url": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaAdCzTtVY-FA5VvE7CySvp2mHXqgQ6mHYchchGFdEw-5pBpH7SIm12law23CckhEX9j_GFHMW5aIM8huMZsj6hDI5DBOg=s1600",
+      "imageBanner": "",
+      "imageCarousel": "",
+      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaAdCzTtVY-FA5VvE7CySvp2mHXqgQ6mHYchchGFdEw-5pBpH7SIm12law23CckhEX9j_GFHMW5aIM8huMZsj6hDI5DBOg=s1600",
       "framework": "reactjs",
       "text": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences",
       "description": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences. SM Residences is a subsidiary of SM Development Corporation (SMDC), one of the leading real estate developers in the Philippines. SMDC has a proven track record of delivering high-quality properties that appreciate in value over time. SM Residences offers a range of amenities and features that cater to your lifestyle needs and preferences, including breathtaking views, state-of-the-art facilities, and convenient access to transportation and commercial hubs. Investing in SMDC properties comes with numerous benefits, including a high potential for appreciation in value, a range of investment options that cater to different budgets and preferences, and a secure and profitable investment for your future.",
@@ -10,7 +12,9 @@
     },
     {
       "name": "Charm's Foodies",
-      "url": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBnRihULohA4V3BaxUnEyYEbPkd8bArsRCRL4ssk895-KHbdDPIQ7-5DWc99BV1XyIr7Exc4nAbjB8Dieygs-ooX3uHEw=s1600",
+      "imageBanner": "",
+      "imageCarousel": "",
+      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBnRihULohA4V3BaxUnEyYEbPkd8bArsRCRL4ssk895-KHbdDPIQ7-5DWc99BV1XyIr7Exc4nAbjB8Dieygs-ooX3uHEw=s1600",
       "framework": "reactjs",
       "text": "This website is to introduce the menu of a startup take away restaurant that offers packed lunch and home cooked filipino meals",
       "description": "",
@@ -18,7 +22,9 @@
     },
     {
       "name": "Streaming Website",
-      "url": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCQV6caxKoaMZwSAzu8PU3guNFYHGvCUNfDnQRmMANls3fjOuxvNvhgkeJNfzOgLFdvdM0ncy4oBrA-gRHRmfkNPPZkHg=s1600",
+      "imageBanner": "",
+      "imageCarousel": "",
+      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCQV6caxKoaMZwSAzu8PU3guNFYHGvCUNfDnQRmMANls3fjOuxvNvhgkeJNfzOgLFdvdM0ncy4oBrA-gRHRmfkNPPZkHg=s1600",
       "framework": "reactjs",
       "text": "Streaming website to showcase everything i learned from online courses.",
       "description": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences. SM Residences is a subsidiary of SM Development Corporation (SMDC), one of the leading real estate developers in the Philippines. SMDC has a proven track record of delivering high-quality properties that appreciate in value over time. SM Residences offers a range of amenities and features that cater to your lifestyle needs and preferences, including breathtaking views, state-of-the-art facilities, and convenient access to transportation and commercial hubs. Investing in SMDC properties comes with numerous benefits, including a high potential for appreciation in value, a range of investment options that cater to different budgets and preferences, and a secure and profitable investment for your future.",
@@ -26,7 +32,9 @@
     },
     {
       "name": "Calculator JS",
-      "url": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBcvL2WiopIdo4S3WvxeFzCoJJnTidSbaa2ddPPhNsr7MU4FLzo2VEB5HQSJsMe3z-_tnOWIgNArR2Z9yOaBUZZvblVDw=s1600",
+      "imageBanner": "",
+      "imageCarousel": "",
+      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBcvL2WiopIdo4S3WvxeFzCoJJnTidSbaa2ddPPhNsr7MU4FLzo2VEB5HQSJsMe3z-_tnOWIgNArR2Z9yOaBUZZvblVDw=s1600",
       "framework": "javascript",
       "text": "This Calculator App is created using HTML, custom CSS and Javascript",
       "description": "This Calculator App is created using HTML, custom CSS and Javascript.",
@@ -34,7 +42,9 @@
     },
     {
       "name": "Login Page JS",
-      "url": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBER5Z_bUd2DCYIlHQXhwAOoRP2zmk9iO1DCk2d1hhULG1NjHbH32YGIk73E5zo6rrZwxsWhS0Y8byxynvC2EfQ8Ga4yQ=s1600",
+      "imageBanner": "",
+      "imageCarousel": "",
+      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBER5Z_bUd2DCYIlHQXhwAOoRP2zmk9iO1DCk2d1hhULG1NjHbH32YGIk73E5zo6rrZwxsWhS0Y8byxynvC2EfQ8Ga4yQ=s1600",
       "framework": "javascript",
       "text": "This Login Page is created using HTML, custom CSS and Javascript, practicing with flex-box, modals and light/dark mode with toggle switch.",
       "description": "This Login Page is created using HTML, custom CSS and Javascript, practicing with flex-box, modals and light/dark mode with toggle switch.",
@@ -42,7 +52,9 @@
     },
     {
       "name": "Tip Calculator JS",
-      "url": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaB9ry_6bEaZIrMAVckK5BpYpYSXhzQIc-jAnjm_QXVRash8QwOykFYQ9-tOHb9ZRLCQ28LYr1SA2PQXQ2myCd57VYjM4Q=s1600",
+      "imageBanner": "",
+      "imageCarousel": "",
+      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaB9ry_6bEaZIrMAVckK5BpYpYSXhzQIc-jAnjm_QXVRash8QwOykFYQ9-tOHb9ZRLCQ28LYr1SA2PQXQ2myCd57VYjM4Q=s1600",
       "framework": "javascript",
       "text": "Tip Calculator is used to practice Javascript logic. Created with HTML with custom CSS.",
       "description": "Tip Calculator is used to practice Javascript logic. Created with HTML with custom CSS.",
@@ -50,7 +62,9 @@
     },
     {
       "name": "To Do App JS",
-      "url": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCcYYoMnwWYfo-l_vRsK9Xx-5ixcHwel0Ip4cgfwQGf1EIjGbZOcQrE3i6JvHhi3STrg-Jbse9QtYt4DO2y7HNE_rI1dQ=s1600",
+      "imageBanner": "",
+      "imageCarousel": "",
+      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCcYYoMnwWYfo-l_vRsK9Xx-5ixcHwel0Ip4cgfwQGf1EIjGbZOcQrE3i6JvHhi3STrg-Jbse9QtYt4DO2y7HNE_rI1dQ=s1600",
       "framework": "javascript",
       "text": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences",
       "description": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences. SM Residences is a subsidiary of SM Development Corporation (SMDC), one of the leading real estate developers in the Philippines. SMDC has a proven track record of delivering high-quality properties that appreciate in value over time. SM Residences offers a range of amenities and features that cater to your lifestyle needs and preferences, including breathtaking views, state-of-the-art facilities, and convenient access to transportation and commercial hubs. Investing in SMDC properties comes with numerous benefits, including a high potential for appreciation in value, a range of investment options that cater to different budgets and preferences, and a secure and profitable investment for your future.",
@@ -58,11 +72,29 @@
     },
     {
       "name": "Meal API JS",
-      "url": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDpp0WzOQuOvTEntuFc9aJWpI9yqelauh-6mpmDX8_EI8zsSDf46kRRpNxKCrxET0n62aSSfR4RR8Io4UIoUz7Ho8hz=s1600",
+      "imageBanner": "",
+      "imageCarousel": "",
+      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDpp0WzOQuOvTEntuFc9aJWpI9yqelauh-6mpmDX8_EI8zsSDf46kRRpNxKCrxET0n62aSSfR4RR8Io4UIoUz7Ho8hz=s1600",
       "framework": "javascript",
       "text": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences",
       "description": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences. SM Residences is a subsidiary of SM Development Corporation (SMDC), one of the leading real estate developers in the Philippines. SMDC has a proven track record of delivering high-quality properties that appreciate in value over time. SM Residences offers a range of amenities and features that cater to your lifestyle needs and preferences, including breathtaking views, state-of-the-art facilities, and convenient access to transportation and commercial hubs. Investing in SMDC properties comes with numerous benefits, including a high potential for appreciation in value, a range of investment options that cater to different budgets and preferences, and a secure and profitable investment for your future.",
       "tech": ["Javascript", "Github", "API", "HTML", "CSS"]
+    },
+    {
+      "name": "Car Rental App",
+      "imageBanner": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBP8m791hOoHjr8U_ieuBT2hukEPVY8ZbWNYf4Y1g2QCzJaupHcJw3tdu3_8fb83qFfQCIF01NNgWemblUnRZ04xuHcLw=s1600",
+      "imageCarousel": [
+        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBFL0deZP7YFhXZfbBLEOpOX3qXbFD7_2UYzWjPevQRzc7A1pTRC6F12HJVTkIe3FQNJK6fvphVKnb5633wpKGvzmdUIg=s1600",
+        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCbKfu3rkBovr6nCUDnHITt7uEEDMRXFvt0FkDXa0z4Jvt869DBsFD8YrfkfcCB_6R1i0F21SN1nxASQKGoxa-h02Kg3Q=s1600",
+        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaB2Jb0vXueK398jAcOC8frJzO6Y-Z89rc8vd7QXKZNYuzp6pA5KT8UBaWofzkvzz23wscMph65vkKXQT8Ilm3chpwrM9g=s1600",
+        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaAoxFrH2oxfTP-1k_iYUca0i9kzhJVUJGquETqNrtfcUwnAHdWKqBcc3kpgJQxUMjL29lyehyA4zTi8qWGWAIFxbELcgg=s1600",
+        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaAM0b2feB2QLAn3lRDWVbR3Q-kuJwX_ptRs0IBsgSsfFUlqJroTvcZmY-IWXoTyzq5LEDYRkL-xTcUEYViI0iGhhFBJ=s1600"
+      ],
+      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaB6MzEm1eHin0MRlIBumI3UJuUNA5MnKepPEtdWShOB4HDSpyFKpQJqNK_0jXgpOuNWHUcwLtBvE5JDT1Wt4Fdn63Ymrg=s1600",
+      "framework": "reactjs",
+      "text": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences",
+      "description": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences. SM Residences is a subsidiary of SM Development Corporation (SMDC), one of the leading real estate developers in the Philippines. SMDC has a proven track record of delivering high-quality properties that appreciate in value over time. SM Residences offers a range of amenities and features that cater to your lifestyle needs and preferences, including breathtaking views, state-of-the-art facilities, and convenient access to transportation and commercial hubs. Investing in SMDC properties comes with numerous benefits, including a high potential for appreciation in value, a range of investment options that cater to different budgets and preferences, and a secure and profitable investment for your future.",
+      "tech": ["NextJS", "ReactJS", "Vercel", "Github", "API", "HTML", "CSS"]
     }
   ]
 }
