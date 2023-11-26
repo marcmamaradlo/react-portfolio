@@ -1,5 +1,4 @@
 const Modal = ({ handleCloseModal, dataName }) => {
-  console.log(dataName);
   const data = dataName;
 
   const handleTech = () => {
