@@ -56,12 +56,7 @@ const Contact = () => {
       <div className="contact">
         <h2>{`<Contact/>`}</h2>
         <div className="contact-text">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Imperdiet massa tincidunt nunc pulvinar sapien et ligula
-            ullamcorper. Etiam dignissim diam quis enim lobortis.
-          </p>
+          <p>Hire me or collaborate, send me a message!</p>
         </div>
         <div className="contact-form-container">
           <form ref={form} onSubmit={formik.handleSubmit}>
@@ -91,6 +86,7 @@ const Contact = () => {
               }
               onChange={formik.handleChange}
               value={formik.values.name}
+              placeholder="Jose Rizal"
             />
 
             <label htmlFor="email">
@@ -109,6 +105,7 @@ const Contact = () => {
               }
               onChange={formik.handleChange}
               value={formik.values.email}
+              placeholder="example@mail.com"
             />
 
             <label htmlFor="message">
@@ -128,6 +125,7 @@ const Contact = () => {
                   ? "is-invalid"
                   : ""
               }
+              placeholder="Message"
             />
             <div className="">
               <SecondaryButton

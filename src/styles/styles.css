@@ -422,7 +422,8 @@ summary,
 }
 
 .contact-text p {
-  text-align: justify;
+  text-align: left;
+  font-size: 2rem;
 }
 
 .contact-form-container form {
@@ -458,7 +459,7 @@ summary,
 
 .contact-form-container input::placeholder,
 .contact-form-container textarea::placeholder {
-  color: #dddddd;
+  color: #dddddd55;
 }
 
 .contact-form-container textarea {
