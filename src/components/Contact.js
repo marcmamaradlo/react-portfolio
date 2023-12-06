@@ -1,12 +1,15 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import SecondaryButton from "./buttons/SecondaryButton";
 import { useFormik } from "formik";
 import * as Yup from "yup";
+
+import SecondaryButton from "./buttons/SecondaryButton";
+import LoaderSpinner from "./assets/loader-spinner";
 
 const Contact = () => {
   const form = useRef();
   const [status, setStatus] = useState(null);
+  const [showLoaderSpinner, setShowLoaderSpinner] = useState(false);
   const validationSchema = Yup.object().shape({
     name: Yup.string().required("This field is required"),
     email: Yup.string()
@@ -23,6 +26,7 @@ const Contact = () => {
     },
     validationSchema,
     onSubmit: (data) => {
+      setShowLoaderSpinner(true);
       console.log(JSON.stringify(data, null, 2));
       emailjs
         .sendForm(
@@ -35,6 +39,9 @@ const Contact = () => {
           (result) => {
             console.log(result.text);
             setStatus("sent");
+            formik.values.name = "";
+            formik.values.email = "";
+            setShowLoaderSpinner(false);
           },
           (error) => {
             console.log(error.text);
@@ -133,6 +140,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      {showLoaderSpinner ? <LoaderSpinner /> : null}
     </div>
   );
 };
