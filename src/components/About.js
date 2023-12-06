@@ -2,7 +2,6 @@ import profilePic from "./assets/profilePicture.png";
 // import ProgressBar from "./assets/progress-bar";
 
 const About = () => {
-  // const About = () => {
   //   const skillsVaiables = [
   //     "HTML",
   //     "CSS",
@@ -23,7 +22,7 @@ const About = () => {
   // };
 
   return (
-    <div className="container">
+    <div className="container" id="about">
       <section className="about">
         <h2>
           <span>{"<"}</span>
@@ -71,7 +70,9 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="about-me-skill-container">{/* {showSkills()} */}</div>
+        <div className="about-me-skill-container">{
+        // showSkills()
+        }</div>
       </section>
     </div>
   );

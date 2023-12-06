@@ -6,7 +6,10 @@ const AllProjects = ({
   handleMouseEnter,
   handleMouseLeave,
   submit,
+  ref,
 }) => {
+  // console.log(ref);
+
   const showItems = () => {
     return projectsJSON.name.map((item, index) => (
       <div
@@ -22,10 +25,11 @@ const AllProjects = ({
         className="projects-container-image"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
+        ref={ref}
       >
         <div
           id={item.name}
-          className={sampleImage === item.name ? "" : "display-none"}
+          className={sampleImage === item.name ? "" : "visibility-none"}
         >
           <h3>{item.name}</h3>
           <PrimaryButton

@@ -42,7 +42,11 @@ const Projects = () => {
 
     return dataName.map((item) =>
       modalActive ? (
-        <Modal handleCloseModal={handleCloseModal} dataName={item} />
+        <Modal
+          handleCloseModal={handleCloseModal}
+          dataName={item}
+          key={dataName.id}
+        />
       ) : null
     );
 
@@ -53,10 +57,11 @@ const Projects = () => {
 
   useEffect(() => {
     setSampleImage("");
+    // eslint-disable-next-line
   }, []);
 
   return (
-    <div className="container">
+    <div className="container" id="projects">
       <div className="project">
         <h2>{`<Projects/>`}</h2>
         <div className="project-button-container">
@@ -91,7 +96,6 @@ const Projects = () => {
             action={handleProjectButton}
           />
         </div>
-      </div>
       <div className="projects-container">
         {projectButtons === "all" ? (
           <AllProjects
@@ -124,6 +128,7 @@ const Projects = () => {
         )}
       </div>
       {handleModal()}
+    </div>
     </div>
   );
 };

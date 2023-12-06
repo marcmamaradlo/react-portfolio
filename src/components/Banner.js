@@ -13,9 +13,11 @@ const Banner = () => {
             </h1>
             <p className="text-align-left">Front-end Developer</p>
             <div className="banner-button">
-              <button>
-                About Me <i className="fa-solid fa-arrow-right"></i>
-              </button>
+              <a href="#about">
+                <button>
+                  About Me <i className="fa-solid fa-arrow-right"></i>
+                </button>
+              </a>
             </div>
             {/* <p><span>{'</div>'}</span></p> */}
           </div>

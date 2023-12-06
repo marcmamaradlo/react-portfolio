@@ -204,6 +204,36 @@ summary,
   font-size: 2rem;
 }
 
+.navbar-links-mobile {
+  position: fixed;
+  top: 4rem;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #222831;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-links-mobile a {
+  text-align: center;
+  color: #dddddd;
+  text-decoration: none;
+  margin: 1rem 0;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.navbar-links-mobile a:hover {
+  background-color: #f05454;
+}
+
+.hamburger-icon {
+  position: relative;
+}
+
 .hamburger-icon i {
   font-size: 2.5rem;
 }
@@ -227,6 +257,7 @@ summary,
 
 .about h2 {
   color: #f05454;
+  margin-top: 5rem;
 }
 
 .about-content-container {
@@ -301,7 +332,12 @@ summary,
 }
 
 .project h2 {
+  margin: 5rem 0;
   color: #f05454;
+  /* padding-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+  border-bottom: 3px solid #f05454; */
 }
 
 .project-button-container {
@@ -376,6 +412,7 @@ summary,
 
 .contact h2 {
   text-align: center;
+  margin-top: 5rem;
   margin-bottom: 2rem;
   color: #f05454;
 }
@@ -399,7 +436,6 @@ summary,
   padding: 1rem;
 }
 
-.contact-form-container label,
 .contact-form-container input {
   background-color: transparent;
   width: 100%;
@@ -444,6 +480,18 @@ summary,
   justify-content: flex-end;
   width: 100%;
   margin: 2rem 0 1rem 0;
+}
+
+.contact-form-container label {
+  position: relative;
+  width: 100%;
+}
+.contact-form-container span {
+  color: #f05454;
+  font-size: 1.3rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .contact-button {
@@ -529,9 +577,9 @@ summary,
   color: #f05454;
 }
 
-.modal-description {
+/* .modal-description {
   overflow-y: scroll;
-}
+} */
 
 .modal-description p {
   text-align: left;
@@ -587,9 +635,28 @@ summary,
 }
 /* MODAL END */
 
+/* FOOTER START */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer h2 {
+  color: #f05454;
+}
+/* FOOTER END */
+
 /* EXTRA CLASSES START */
-.display-none {
+.visibility-none {
   visibility: hidden;
+}
+
+.display-none {
+  display: none;
 }
 
 .margin-bottom-2rem {
@@ -658,18 +725,100 @@ summary,
 
 /* Larger than mobile */
 @media (min-width: 400px) {
+  .project-button-active {
+    min-width: 13.3rem;
+  }
+  .projects-container-image {
+    width: 35.7rem;
+  }
 }
 
 /* Larger than phablet */
 @media (min-width: 550px) {
+  .navbar-links-mobile a {
+    font-size: 2rem;
+  }
+
+  .banner div {
+    width: 100%;
+  }
+  .about-content-container {
+    margin: unset;
+  }
+
+  .about-me-container {
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .about-me img {
+    max-width: unset;
+    width: 23.5rem;
+    margin-right: 2rem;
+  }
+
+  .about-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .projects-container {
+    justify-content: space-between;
+    flex-direction: unset;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .projects-container-image {
+    width: 23.5rem;
+    height: 30rem;
+  }
+
+  .projects-container-image p {
+    display: none;
+  }
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+  .projects-container-image {
+    width: 32.5rem;
+    height: 48rem;
+  }
+
+  .projects-container-image p {
+    display: block;
+  }
 }
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
+  .navbar-links {
+    display: flex;
+  }
+
+  .navbar-links a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    width: 10rem;
+  }
+
+  .navbar-links a:hover {
+    background-color: #f05454;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
+  .projects-container-image {
+    width: 29rem;
+    height: 41rem;
+  }
 }
 
 /* Larger than Desktop HD */

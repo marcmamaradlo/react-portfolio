@@ -1,7 +1,7 @@
-const SecondaryButton = ({ action, text, style, id }) => {
+const SecondaryButton = ({ action, text, style, id, type }) => {
   return (
     <>
-      <button className={style} onClick={action} id={id}>
+      <button className={style} type={type} onClick={action} id={id}>
         {text}
       </button>
     </>

@@ -29,7 +29,7 @@ const Javascript = ({
       >
         <div
           id={item.name}
-          className={sampleImage === item.name ? "" : "display-none"}
+          className={sampleImage === item.name ? "" : "visibility-none"}
         >
           <h3>{item.name}</h3>
           <PrimaryButton

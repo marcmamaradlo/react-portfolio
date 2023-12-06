@@ -1,11 +1,51 @@
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import SecondaryButton from "./buttons/SecondaryButton";
+import { useFormik } from "formik";
+import * as Yup from "yup";
 
 const Contact = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
+  const form = useRef();
+  const [status, setStatus] = useState(null);
+  const validationSchema = Yup.object().shape({
+    name: Yup.string().required("This field is required"),
+    email: Yup.string()
+      .required("This field is required")
+      .email("This field is invalid"),
+    message: Yup.string().required("This field is required").max(500),
+  });
+
+  const formik = useFormik({
+    initialValues: {
+      name: "",
+      email: "",
+      message: "",
+    },
+    validationSchema,
+    onSubmit: (data) => {
+      console.log(JSON.stringify(data, null, 2));
+      emailjs
+        .sendForm(
+          "service_24szffq",
+          "template_06bfi2p",
+          form.current,
+          "e04CtcKkAAwLfi5Wv"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            setStatus("sent");
+          },
+          (error) => {
+            console.log(error.text);
+            setStatus("error");
+          }
+        );
+    },
+  });
+
   return (
-    <div className="container">
+    <div className="container" id="contact">
       <div className="contact">
         <h2>{`<Contact/>`}</h2>
         <div className="contact-text">
@@ -17,15 +57,78 @@ const Contact = () => {
           </p>
         </div>
         <div className="contact-form-container">
-          <form onSubmit={handleSubmit}>
-            <label>Name</label>
-            <input type="text" placeholder="John Doe" />
-            <label>Email Address</label>
-            <input text="email" placeholder="eddress@email.mail" />
-            <label>Message</label>
-            <textarea placeholder="Message" />
-            <div>
-              <SecondaryButton text="Send" style={`contact-button`} />
+          <form ref={form} onSubmit={formik.handleSubmit}>
+            {status === "sending" && (
+              <div style={{ color: "blue" }}>sending...</div>
+            )}
+            {status === "sent" && (
+              <div style={{ color: "green" }}>Message sent!</div>
+            )}
+            {status === "error" && (
+              <div style={{ color: "red" }}>Message failed to send.</div>
+            )}
+            <label>
+              Name
+              <span>
+                {formik.errors.name && formik.touched.name
+                  ? formik.errors.name
+                  : null}
+              </span>
+            </label>
+            <input
+              name="name"
+              type="text"
+              className={
+                // "form-control" +
+                formik.errors.name && formik.touched.name ? " is-invalid" : ""
+              }
+              onChange={formik.handleChange}
+              value={formik.values.name}
+            />
+
+            <label htmlFor="email">
+              Email
+              <span>
+                {formik.errors.email && formik.touched.email
+                  ? formik.errors.email
+                  : null}
+              </span>
+            </label>
+            <input
+              name="email"
+              type="email"
+              className={
+                formik.errors.email && formik.touched.email ? "is-invalid" : ""
+              }
+              onChange={formik.handleChange}
+              value={formik.values.email}
+            />
+
+            <label htmlFor="message">
+              Message
+              <span>
+                {formik.errors.message && formik.touched.message
+                  ? formik.errors.message
+                  : null}
+              </span>
+            </label>
+            <textarea
+              name="message"
+              rows={7}
+              onChange={formik.handleChange}
+              className={
+                formik.errors.message && formik.touched.message
+                  ? "is-invalid"
+                  : ""
+              }
+            />
+            <div className="">
+              <SecondaryButton
+                type={`submit`}
+                style={`contact-button`}
+                id={`submit-button`}
+                text={`Submit`}
+              />
             </div>
           </form>
         </div>

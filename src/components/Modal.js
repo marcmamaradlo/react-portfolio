@@ -9,7 +9,9 @@ const Modal = ({ handleCloseModal, dataName }) => {
 
   const handleImageInCarousel = () => {
     return data.imageCarousel
-      ? data.imageCarousel.map((item, index) => <img src={item} alt={index} />)
+      ? data.imageCarousel.map((item, index) => (
+          <img src={item} alt={index} key={index} />
+        ))
       : null;
   };
 
