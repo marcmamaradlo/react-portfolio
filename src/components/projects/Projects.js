@@ -1,17 +1,18 @@
 // import sampleImage from "../assets/sampleImage.jpg";
 import { useState, useEffect } from "react";
-import projectsJSON from "../projects.json";
+// import projectsJSON from "../projects.json";
 import PrimaryButton from "../buttons/PrimaryButton";
 import AllProjects from "./All";
 import Javascript from "./JS";
 import Reactjs from "./Reactjs";
-import Modal from "../Modal";
+// import Modal from "../Modal";
 
 const Projects = () => {
   const [sampleImage, setSampleImage] = useState("");
   // eslint-disable-next-line
   const [onHover, setOnHover] = useState(true);
   const [projectButtons, setProjectButtons] = useState("all");
+  // eslint-disable-next-line
   const [modalActive, setModalActive] = useState(false);
 
   const handleMouseEnter = (e) => {
@@ -31,29 +32,27 @@ const Projects = () => {
     setModalActive(true);
   };
 
-  const handleCloseModal = () => {
-    setModalActive(false);
-  };
+  // const handleCloseModal = () => {
+  //   setModalActive(false);
+  // };
 
-  const handleModal = () => {
-    const dataName = projectsJSON.name.filter(
-      (obj) => obj.name === sampleImage
-    );
+  // const handleModal = () => {
+  //   document.body.style.overflowY = "hidden";
 
-    return dataName.map((item) =>
-      modalActive ? (
-        <Modal
-          handleCloseModal={handleCloseModal}
-          dataName={item}
-          key={dataName.id}
-        />
-      ) : null
-    );
+  //   const dataName = projectsJSON.name.filter(
+  //     (obj) => obj.name === sampleImage
+  //   );
 
-    // return modalActive ? (
-    //   <Modal handleCloseModal={handleCloseModal} dataName={dataName} />
-    // ) : null;
-  };
+  //   return dataName.map((item) =>
+  //     modalActive ? (
+  //       <Modal
+  //         handleCloseModal={handleCloseModal}
+  //         dataName={item}
+  //         key={dataName.id}
+  //       />
+  //     ) : null
+  //   );
+  // };
 
   useEffect(() => {
     setSampleImage("");
@@ -96,39 +95,39 @@ const Projects = () => {
             action={handleProjectButton}
           />
         </div>
-      <div className="projects-container">
-        {projectButtons === "all" ? (
-          <AllProjects
-            sampleImage={sampleImage}
-            handleMouseEnter={handleMouseEnter}
-            handleMouseLeave={handleMouseLeave}
-            submit={handleButtons}
-          />
-        ) : projectButtons === "javascript" ? (
-          <Javascript
-            sampleImage={sampleImage}
-            handleMouseEnter={handleMouseEnter}
-            handleMouseLeave={handleMouseLeave}
-            submit={handleButtons}
-          />
-        ) : projectButtons === "reactjs" ? (
-          <Reactjs
-            sampleImage={sampleImage}
-            handleMouseEnter={handleMouseEnter}
-            handleMouseLeave={handleMouseLeave}
-            submit={handleButtons}
-          />
-        ) : (
-          <AllProjects
-            sampleImage={sampleImage}
-            handleMouseEnter={handleMouseEnter}
-            handleMouseLeave={handleMouseLeave}
-            submit={handleButtons}
-          />
-        )}
+        <div className="projects-container">
+          {projectButtons === "all" ? (
+            <AllProjects
+              sampleImage={sampleImage}
+              handleMouseEnter={handleMouseEnter}
+              handleMouseLeave={handleMouseLeave}
+              submit={handleButtons}
+            />
+          ) : projectButtons === "javascript" ? (
+            <Javascript
+              sampleImage={sampleImage}
+              handleMouseEnter={handleMouseEnter}
+              handleMouseLeave={handleMouseLeave}
+              submit={handleButtons}
+            />
+          ) : projectButtons === "reactjs" ? (
+            <Reactjs
+              sampleImage={sampleImage}
+              handleMouseEnter={handleMouseEnter}
+              handleMouseLeave={handleMouseLeave}
+              submit={handleButtons}
+            />
+          ) : (
+            <AllProjects
+              sampleImage={sampleImage}
+              handleMouseEnter={handleMouseEnter}
+              handleMouseLeave={handleMouseLeave}
+              submit={handleButtons}
+            />
+          )}
+        </div>
+        {/* {handleModal()} */}
       </div>
-      {handleModal()}
-    </div>
     </div>
   );
 };

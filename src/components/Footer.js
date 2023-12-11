@@ -7,20 +7,32 @@ const Footer = () => {
           {/* <p>TOP</p> */}
         </a>
       </div>
+
       <div className="footer-icon-container">
-        <i className="fa-brands fa-facebook-f"></i>
-        <i className="fa-brands fa-instagram"></i>
-        <i className="fa-solid fa-globe"></i>
+        <div className="footer-content">
+          <a href="*">
+            <i className="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="*">
+            <i className="fa-brands fa-instagram"></i>
+          </a>
+          <a href="*">
+            <i className="fa-solid fa-globe"></i>
+          </a>
+        </div>
       </div>
       <div className="footer-extras">
         <div className="need-a-website">
           <p>
-            Need a website? <a href="#contact">send me a message</a>
+            Need a website? <a href="#contact">send me an email</a>
           </p>
         </div>
         <div className="SimpleCodesPH">
           <p>
-            This website is owned by <a href="*">SimpleCodesPH</a>
+            This website is owned by{" "}
+            <a href="https://www.facebook.com/profile.php?id=100091145376427">
+              SimpleCodesPH
+            </a>
           </p>
         </div>
       </div>

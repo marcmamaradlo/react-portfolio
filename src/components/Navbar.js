@@ -1,11 +1,18 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { Link } from "react-router-dom";
+import { MyContext } from "../context/context";
+// import PrimaryButton from "./buttons/PrimaryButton";
 
-const Navbar = () => {
+const Navbar = ({ name }) => {
+  const context = useContext(MyContext);
+  const state = context.state;
+  const setHomePageFalse = context.setHomePageFalse;
   const [isActive, setIsActive] = useState(false);
+
   const handleLinkClick = (e) => {
     setTimeout(() => {
       setIsActive(false);
-    }, 300);
+    }, 1000);
   };
 
   const handleHamburgerIconAction = () => {
@@ -16,26 +23,33 @@ const Navbar = () => {
     <div className="container" id="navbar">
       <div className="navbar">
         <div className="navbar-logo">
-          <a href="*">
+          <Link to="/" onClick={setHomePageFalse}>
             <p>
               <span>{"<"}</span>
-              Marc Mamaradlo
+              {state.homePage ? "Home" : "Marc Mamaradlo"}
               <span> {"/>"}</span>
             </p>
-          </a>
+          </Link>
         </div>
-        <div className="navbar-links">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </div>
+
+        {state.homePage ? null : (
+          <div className="navbar-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        )}
+
         <div className="hamburger-icon">
-          <i
-            onClick={handleHamburgerIconAction}
-            className={
-              isActive ? "fa-regular fa-rectangle-xmark" : "fa-solid fa-bars"
-            }
-          ></i>
+          {state.homePage ? null : (
+            <i
+              onClick={handleHamburgerIconAction}
+              className={
+                isActive ? "fa-regular fa-rectangle-xmark" : "fa-solid fa-bars"
+              }
+            ></i>
+          )}
+
           <div className={isActive ? "navbar-links-mobile" : "display-none"}>
             <a onClick={handleLinkClick} href="#about">
               About

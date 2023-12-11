@@ -3,15 +3,15 @@
     {
       "id": "smresidences001",
       "name": "SM Residences",
-      "imageBanner": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCRzZ4vRReF2Ks48UgYyzkGpFteE4cnm0hGjrOhTkClJlfq59MVICVtEprZfq7SoQeJ0QkD0Vg-UzMZXw1h1q31dahS4w=s1600",
+      "imageBanner": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/SMDCProfile/banner.jpg",
       "imageCarousel": [
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCN2Opk2Kwg2vJnEb4BbLhTO28scp-3MSrUwahZGYMI69tw47ILjxjfgG-ijNKVL81Q2D4LnSGqM1wjXESnUbsF0uxLHw=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCGW9GOzzfouDHLUIfzUiPFLz495ZNzpmwu9GT64wE-D53BBvL-JD5dmMYRmjjwqhQE1Rb08qvzKtjQbv60sSCG7G2arw=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaAvfUnhXjBce9kMZ3Uo8bas6VfdRj2X1bquIC4yFaZgBNYHa5yx9FSuoj0Ovn3t1ke60vuTmvdJgntxTGEH58fuu737Cg=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDkxVzlkSZXJGA51cDESdGY8wrfTXHgllLnqrQtumyXykzKkdaJtGMMVrubjHabhpGZt02cDggFR654qjd9tV_rPdMyHg=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCthvznCDv1WHvEy34Nds5T0OFBFGbXNCL5K4IEN2Gf6XoolV0_VbhoNNfDQwmdykVN_NDzi83dQjbcg72hMmPeylXjtA=s1600"
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/SMDCProfile/image01.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/SMDCProfile/image02.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/SMDCProfile/image03.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/SMDCProfile/image04.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/SMDCProfile/image05.png"
       ],
-      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaAdCzTtVY-FA5VvE7CySvp2mHXqgQ6mHYchchGFdEw-5pBpH7SIm12law23CckhEX9j_GFHMW5aIM8huMZsj6hDI5DBOg=s1600",
+      "imageProfile": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/SMDCProfile/SMDCProfile2.jpg",
       "framework": "reactjs",
       "text": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences",
       "description": "The website offers a range of premium residential condominiums that cater to different lifestyles and preferences. SM Residences is a subsidiary of SM Development Corporation (SMDC), one of the leading real estate developers in the Philippines. SMDC has a proven track record of delivering high-quality properties that appreciate in value over time. SM Residences offers a range of amenities and features that cater to your lifestyle needs and preferences, including breathtaking views, state-of-the-art facilities, and convenient access to transportation and commercial hubs. Investing in SMDC properties comes with numerous benefits, including a high potential for appreciation in value, a range of investment options that cater to different budgets and preferences, and a secure and profitable investment for your future.",
@@ -25,146 +25,155 @@
         "API",
         "HTML",
         "CSS"
-      ]
+      ],
+      "url": "https://sm-residences.com"
     },
     {
       "id": "charmsfoodies002",
       "name": "Charm's Foodies",
-      "imageBanner": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCYANHkQ_4eZYKpz_YBLwH7e8A1AkMCUEbeRcslAcemeZbQdrfLZyEMKc8rl9SCEGFlZ9Ia7PXkPM-RhVS-V8isolMO_g=s1600",
+      "imageBanner": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/charmsfoodiesProfile/banner.jpg",
       "imageCarousel": [
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBCwLsn_lj8qE1ICX0qCzY14cCeGSw15N1Mn75ROAcbC7wQcldhrQisrtXx33O8lqX5giKcA9FVYgTXdzn7o7mU56e_=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBrLqtKRtMtUiVRsC5_-W4PNNFgjAL3eYCGHamn9zGn90cU7mx5lvMPDq8mC3ovL7G7bEeRnORklwgIyXmGD77ho9H5DQ=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDcrWIF_FxgpiIwqjvZ5MkAG1UXfyVb3kgcLadLb3-2mgeMMY8eNEch7bYR9MABouznXxykDvG-42avKRVQnOj77jCtXQ=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaAw8xddbfVIPs_jzAnlxyeLo_yaL_z0YPF6dlq4j9ugvWDKWwMkcCko3XGcvTiYVo1_FErGeqCmTAQGysCQMSReaGcXyA=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaAY-uXhQBvTR-Ul9DJH1LbzxFnONgkhQLeICux8hVVwvZ2FmF-b4SssSjPvFKXbnT2neWjTJrfnoU8FciGoMuCgcpI7LA=s1600"
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/charmsfoodiesProfile/image01.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/charmsfoodiesProfile/image02.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/charmsfoodiesProfile/image03.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/charmsfoodiesProfile/image04.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/charmsfoodiesProfile/image05.png"
       ],
-      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBnRihULohA4V3BaxUnEyYEbPkd8bArsRCRL4ssk895-KHbdDPIQ7-5DWc99BV1XyIr7Exc4nAbjB8Dieygs-ooX3uHEw=s1600",
+      "imageProfile": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/charmsfoodiesProfile/charmsfoodiesProfile.jpg",
       "framework": "reactjs",
       "text": "This website is to introduce the menu of a startup take away restaurant that offers packed lunch and home cooked filipino meals",
       "description": "Charm's Foodies has been serving tummies with delectable meals since 2013, a small but hearty business that has grown exponentially through continuous patronage of those who have been enamored by the homemade dishes that has been tried, tested and highly favored over the years, from the most famous Pinoy favorites such as Liempo Sinigang, Bistek Tagalog, and Pancit Canton, to Asian fusions such as Korean Beef Stew, while also venturing into Italian cuisines and being well known for serving one of the best Lasagna's in the country. Charm's Foodies prides itself in serving affordable meals that will not break your wallet and will fill your heart with satisfaction. Meals are prepared individually or by bulk. Requests are highly accommodated and suggestions are well taken into consideration. It's like eating the homecooked meals you grew up with, no matter where you are.",
-      "tech": ["ReactJS", "Github", "Vercel", "JSON", "HTML", "CSS"]
+      "tech": ["ReactJS", "Github", "Vercel", "JSON", "HTML", "CSS"],
+      "url": "https://charmsfoodies.com"
     },
     {
       "id": "streamingwebsite003",
       "name": "Streaming Website",
-      "imageBanner": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaC0rZ01vHUsAKXG1NiYCk2JlbDqdSc34a8MWV-34CuZp_ZxoB26-MCmWcnONjD6ppIzRN5rVkRarjNkR7uOFFL-W8rwDg=s1600",
+      "imageBanner": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/StreamingWebsiteProfile/banner.jpg",
       "imageCarousel": [
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCufuQHotJHOIR2btbCQgMZHlohF9Hyh3DXePfwjlaWJXoTbUfBxj0fUfEyH_n6VWuWhVZsSSniU-6UucYT9uOKFj5CxQ=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDyteGiEhsAMXjDrhSxWB79-TGWHPUbXIXDhJdagkVnHx88nqQfXbztB5Tm4DXGYiahJsVegdpisi7-zCvVYb3PIiPVMw=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCc_tnUFeVhMDJG0s5b0L_k-8E6ryuSA_JcJRrnZj-cqpeYAFV-Ecy1n2IWThQ4LvPaikq5lTdhx-rMF6LPrqbDDetmWA=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaAfyOqfG_D059ez_NeswlO56JjZYjktCL8Rstt3gpZogC5_dCbrJ0cp9JRK4kQYn3FDNImtTQ3iJiPaPA0d_sXQ5UIwQw=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDSFBQ8DGtrkjID3zf57aEjvuFjLdnZFWlOOjeXcOjaQVDStC7fFWXjEy0czdcmDmUIyokLKD29h1mxb9NqLcBGbnFo7w=s1600"
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/StreamingWebsiteProfile/image01.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/StreamingWebsiteProfile/image02.jpg",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/StreamingWebsiteProfile/image03.jpg",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/StreamingWebsiteProfile/image04.jpg",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/StreamingWebsiteProfile/image05.png"
       ],
-      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCQV6caxKoaMZwSAzu8PU3guNFYHGvCUNfDnQRmMANls3fjOuxvNvhgkeJNfzOgLFdvdM0ncy4oBrA-gRHRmfkNPPZkHg=s1600",
+      "imageProfile": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/StreamingWebsiteProfile/StreamingWebsiteProfile.jpg",
       "framework": "reactjs",
       "text": "No subscription on-demand streaming web app.",
       "description": "A no subscription on-demand web streaming app that allows users to search for movies and TV shows.",
-      "tech": ["ReactJS", "Github", "Vercel", "API", "HTML", "CSS"]
+      "tech": ["ReactJS", "Github", "Vercel", "API", "HTML", "CSS"],
+      "url": "https://project-movies-app.vercel.app/"
     },
     {
       "id": "calcularorjs004",
       "name": "Calculator JS",
-      "imageBanner": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDeLlirv490jgXx_1C_f0nfFw4RPPJtjrWcvPQXC4EZC9eyLJ5kUlYV1_AD-c-EDTGEA34ztUlu5d-AFdg359vfugxAhg=s1600",
+      "imageBanner": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSCalculatorProfile/banner.png",
       "imageCarousel": [
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBNprRG1dC2W8pOXNo2dhJKH46zNY2zyzkWTGWzuLzhn_oWYTjcTZXblMRF6fX8W9xg1FLZhMhzjFvYzKmF2HWAFB9J=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDaVXj3Kd-IK1IDWntlWGw-ZZkXzTnuqg7_SRl67lcDCtipu-vr2xpc03nP65PF8274MZ4Jcc0c8LUnDcnR2jf-THoL=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCpjvKkF6Sa3SptYKw-9kM8z6924qYAyxGoDAm6S5WzMfTZfs6yLch7JP59TAs3j2ovqDu6CKqqyd11oMW8bdDFqjLGEw=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCEzMmBmiWwvx7jsbhVr1smlLcXifJIdeFlw52T7hmXYwrKCQUS_ogkTpSmKOqDPf3xPk3eQiJ29GCcEk_CXUaRSHEM=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaAR8bdnznHN0XamNePPrp1XBVFQcBD72ZRRF9rYZ0F4p2klyWLSVHIdySKqb2Eb3odbyLwhdsUpT9s1bcnMzXFU9hxKfw=s1600"
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSCalculatorProfile/image01.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSCalculatorProfile/image02.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSCalculatorProfile/image03.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSCalculatorProfile/image04.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSCalculatorProfile/image05.png"
       ],
-      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBcvL2WiopIdo4S3WvxeFzCoJJnTidSbaa2ddPPhNsr7MU4FLzo2VEB5HQSJsMe3z-_tnOWIgNArR2Z9yOaBUZZvblVDw=s1600",
+      "imageProfile": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSCalculatorProfile/JSCalculatorProfile.png",
       "framework": "javascript",
       "text": "This Calculator App is created using HTML, custom CSS and Javascript",
       "description": "JavaScript Calculator is used to perform mathematical operations like Addition, Subtraction, Multiplication, Division.",
-      "tech": ["Javascript", "Github", "HTML", "CSS"]
+      "tech": ["Javascript", "Github", "HTML", "CSS"],
+      "url": "https://marcmamaradlo.github.io/JS-Calculator/"
     },
     {
       "id": "loginpagejs005",
       "name": "Login Page JS",
-      "imageBanner": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaAH1fsrgsvFXdmCuzFfzNecnU95z7XdYY0SoMlj--X4l2viK0WkjrVrSb9U4V6YpIqZZORxvv1o8_wD56tKePcJWU9YKA=s1600",
+      "imageBanner": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSLoginProfile/banner.jpg",
       "imageCarousel": [
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBJdxknMEzYhikhBUfLKa8r2WfRRsojWg4Y11gHcn9T13o_UYkGe1YuTvnukR8Xh12442rEgmegTa0Z3hciB252SB75=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaC5rkZGTTf2eZUTtlf-2b4FSNKOqj1RFWZ57VRasobHJEErUDbrsbeMIQ_OH6ulUKU4_pOl8NFdcPru73LSnbyo8nZ0Ww=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDGSgK3nmwagT7C6_pcbeMwSiKKckwQUx40I9ePs0XSxOSYloewzaa53Rqgy64Ewf4GJifqnUEMu_y02wBUwcOBv34i=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaA-o-4Qrj5IdfKT_J0GslV3WYsWgrqBjzqwSWbsjRZINkm_7vygSx28ph2g_Ybh8k5CnocZ1dh7DekKa5vzSCQ4EwaG=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCSwvn8pAvgw0p-6SRH6tGroJM6JNXyqP0vPfJKaW7iQgGK6_5OEvMYOFzlQiIMYID0zUN_wxIha78KCKNuK4YT3_drHA=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCnyaDoJwP_GD0iwTaWuT75svIzrGeumlz6qkXlvehdb1sSfQrnNN2RXnsV8TckmdOTZgsFL1cVEFvafsnVcL_7is16FQ=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBsA8QjsFhEXF1gLKGWnFfIk0KilId7dL07MSl-b3HPtAJ4Eo_3R_h3bdV8SVmtPHunVcYzK3ofJ7g7oe3D81dWUyZShQ=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDfeJPOSPrapTHTMEvhHS4ew2CXKntWYO4mjQgt0wtlOvc6OZfy0ON_iOyVKUXEXST3tq6vJJsO42Bx4b-dC5w6Z-0gyA=s1600"
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSLoginProfile/image01.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSLoginProfile/image02.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSLoginProfile/image03.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSLoginProfile/image04.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSLoginProfile/image05.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSLoginProfile/image06.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSLoginProfile/image07.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSLoginProfile/image08.png"
       ],
-      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBER5Z_bUd2DCYIlHQXhwAOoRP2zmk9iO1DCk2d1hhULG1NjHbH32YGIk73E5zo6rrZwxsWhS0Y8byxynvC2EfQ8Ga4yQ=s1600",
+      "imageProfile": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSLoginProfile/JSLoginProfile.jpg",
       "framework": "javascript",
       "text": "This Login Page is created using HTML, custom CSS and Javascript, practicing with flex-box, modals and light/dark mode with toggle switch.",
       "description": "This Login Page is created using HTML, custom CSS and Javascript, practicing with flex-box, modals and light/dark mode with toggle switch. No back-end service. This is a proof of concept only.",
-      "tech": ["Javascript", "Github", "HTML", "CSS"]
+      "tech": ["Javascript", "Github", "HTML", "CSS"],
+      "url": "https://marcmamaradlo.github.io/Login-Flexbox/"
     },
     {
       "id": "tipcalculatorjs006",
       "name": "Tip Calculator JS",
-      "imageBanner": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaB_CyyOvnMPBKl5a9-AlK_85nyg3yWIVTbH3WhXkvW4BxC5yZKapa29B-Gbo2_JvvtH4SvugiLDSYK0awlqK7FTaeo-=s1600",
+      "imageBanner": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSTipCalculatorProfile/banner.png",
       "imageCarousel": [
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCvW5c1jLuDNqBGFwjX1aqyAM9Hpyy065O9I_V96E5L7gClx0QMDNOz8tDJLAKLSZsZjU2L_NQlxNlm5S2RRBUnu6dmmw=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDGSY2MUzGKNxogn_7ifUH8a9wRxFDt4HSfI5RRDdyK5cgDMajTRq_qHx9Gtiw2AaRX24bw6uP0zUypx8xlP_3S6bAlHw=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCGXjesySBRyYnDrsLvyVNp0MKhA8EQxBkefdunbJBi9t0WA4AYInozNY5UDe_PU-84ps2tPUXf-j5mbd068YWzs6mGfw=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDF8ub9RdIBWOSyc4NbsZRUAf6VctzNuBn0BhGcbDH74wExKAy24sPKyxarC7HEYhjqx7E1Bohx759c-Z28FPTeBEz3=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDBrgTjrXlh2bvyrk3STJy3I8w2_FKW7qJgn4AnHSLfllBA8u9_fvAjUsc2AREuLWRcOoGVItgwumkaUNdd2Xwe05LXrw=s1600"
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSTipCalculatorProfile/image01.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSTipCalculatorProfile/image02.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSTipCalculatorProfile/image03.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSTipCalculatorProfile/image04.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSTipCalculatorProfile/image05.png"
       ],
-      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaB9ry_6bEaZIrMAVckK5BpYpYSXhzQIc-jAnjm_QXVRash8QwOykFYQ9-tOHb9ZRLCQ28LYr1SA2PQXQ2myCd57VYjM4Q=s1600",
+      "imageProfile": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSTipCalculatorProfile/JSTipCalculatorProfile.jpg",
       "framework": "javascript",
       "text": "Tip Calculator is used to practice Javascript logic. Created with HTML with custom CSS.",
       "description": "This proof of concept web app will show my early days of understanding Javascript logic and functions. Fully functioning web app with no cookies and local storage logic. Created with Javascript along side HTML with custom CSS.",
-      "tech": ["Javascript", "Github", "HTML", "CSS"]
+      "tech": ["Javascript", "Github", "HTML", "CSS"],
+      "url": "https://marcmamaradlo.github.io/WhoPaysTheBill/"
     },
     {
       "id": "todoappjs007",
       "name": "To Do App JS",
-      "imageBanner": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCzEa_SfJSoR0P1GqMCExHQZ4XgoZnUE0UE9HJRGudZHGCmGc2r8vTwlPDpmhGAFJtn9m9Kxb_a_M0SjfXi4-xeQS9KrA=s1600",
+      "imageBanner": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSTodoApp/banner.png",
       "imageCarousel": [
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaAKDXhrHiLV6gvwXA4u5EDcR0kE1cqtCLGd6RWxNA3aUWFc3NL3uQ8z3rnLLGeEbZHRQoMon1btF5wt1MfET9iDvjASMQ=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCkr3Rz_bdj49Mk0l2r98GzyyW_d_0127li2aRnKAYUlcXZVWzdAosfaF8myqILbKbORnQKirbusUYaprxTsXNx1q18lA=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDtuERXXfl1IFO55lNrlIpmdzQFHw0ukcfhON0H9FJoqV-bJIRiRiPFJaD9GaGiS1s69Nuz-QPK_Z-LhiqDAskPssT-rg=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBiLRQTQ9M9rWoMxnEi8qvOs56CMh5mcCrzCOBQjL2iXmXOOsIvt83_nGQ2ekELs5XS5AbsKSkOaJqvlnTHxiTR663x-Q=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDBRrplBhLzYe9Lh14wz5d9IBnw19CLuBfPYGxpV3pHgIsZn1iaAIX_xUHrDm1NyfxrIG70zpxOJMZYZLzQnyd-EeSgrA=s1600"
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSTodoApp/image01.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSTodoApp/image02.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSTodoApp/image03.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSTodoApp/image04.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSTodoApp/image05.png"
       ],
-      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCcYYoMnwWYfo-l_vRsK9Xx-5ixcHwel0Ip4cgfwQGf1EIjGbZOcQrE3i6JvHhi3STrg-Jbse9QtYt4DO2y7HNE_rI1dQ=s1600",
+      "imageProfile": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/JSTodoApp/JSTodoApp.png",
       "framework": "javascript",
       "text": "To-Do App Javascript",
       "description": "A proof of concept web application to show case some of array manipulation and methods in Javascript",
-      "tech": ["Javascript", "Github", "HTML", "CSS"]
+      "tech": ["Javascript", "Github", "HTML", "CSS"],
+      "url": "https://marcmamaradlo.github.io/TodoApp/"
     },
     {
       "id": "mealapijs008",
       "name": "Meal API JS",
-      "imageBanner": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBC-Yjzpho0rxIQ-jSakq1sdh4U3_t-eQc2-O4axTYXAFvNkZbi8-7FUdcHpo5OpxBLeBrVBbCqSlwVYCSa8lXrwHHU_Q=s1600",
+      "imageBanner": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/MealAPIProfile/banner.jpg",
       "imageCarousel": [
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDyGqcFTKLOG0jiegqaERAnHWUJFzE7FY-a1EpzpdG5ODbLh4yg04cAm3_BEty7oYlMFDeYVbgQxrl-Fz32eJLK1h_s=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaAiKRCu42Bh0Inq9K8cBXfsecQLnYxXO_Oy3VOAHZJUzDhvs4VbWalZyU0JRRE-JrOxK_Hvm56GfG5ryD7VRWXNlmkhiA=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaAQzXkOqt9hah5rvRpTUtApvBOtbbcJwtyUKaRLa38RWi0YFn4Thd7804o7wCTbRxOJHkh40slpBhARlxAzOn-IpAI6iw=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBcMu-tyLdhXw882gpPs8Mf1sLTTEwbS4zV2lX7gKFBlZfc2rzCwbzRgCXq9Zi3Xj67CVU92QYhx3i0OZ7vqdYiixNcdg=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBnbF7JivUN2dR1M_9hhM0XZQ7t31p0BLcEtDKvTTZxLAW8BGkcVkR5LHKluhSPXxYxfMRyiKIU9lDZdYZWgWBCFzod=s1600"
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/MealAPIProfile/image01.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/MealAPIProfile/image02.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/MealAPIProfile/image03.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/MealAPIProfile/image04.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/MealAPIProfile/image05.png"
       ],
-      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaDpp0WzOQuOvTEntuFc9aJWpI9yqelauh-6mpmDX8_EI8zsSDf46kRRpNxKCrxET0n62aSSfR4RR8Io4UIoUz7Ho8hz=s1600",
+      "imageProfile": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/MealAPIProfile/MealAPIProfile.jpg",
       "framework": "javascript",
       "text": "Restaurant Menu WebApp JS",
       "description": "Proof of concept web app that shows API call using Fetch/Axios and handling objects in Javascript. This web app was may very first exposure to APIs",
-      "tech": ["Javascript", "Github", "API", "HTML", "CSS"]
+      "tech": ["Javascript", "Github", "API", "HTML", "CSS"],
+      "url": "https://marcmamaradlo.github.io/Meals-Api/"
     },
     {
       "id": "carrentalapp009",
       "name": "Car Rental App",
-      "imageBanner": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBP8m791hOoHjr8U_ieuBT2hukEPVY8ZbWNYf4Y1g2QCzJaupHcJw3tdu3_8fb83qFfQCIF01NNgWemblUnRZ04xuHcLw=s1600",
+      "imageBanner": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/CarRentalProfile/banner.jpg",
       "imageCarousel": [
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaBFL0deZP7YFhXZfbBLEOpOX3qXbFD7_2UYzWjPevQRzc7A1pTRC6F12HJVTkIe3FQNJK6fvphVKnb5633wpKGvzmdUIg=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaCbKfu3rkBovr6nCUDnHITt7uEEDMRXFvt0FkDXa0z4Jvt869DBsFD8YrfkfcCB_6R1i0F21SN1nxASQKGoxa-h02Kg3Q=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaB2Jb0vXueK398jAcOC8frJzO6Y-Z89rc8vd7QXKZNYuzp6pA5KT8UBaWofzkvzz23wscMph65vkKXQT8Ilm3chpwrM9g=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaAoxFrH2oxfTP-1k_iYUca0i9kzhJVUJGquETqNrtfcUwnAHdWKqBcc3kpgJQxUMjL29lyehyA4zTi8qWGWAIFxbELcgg=s1600",
-        "https://lh3.googleusercontent.com/drive-viewer/AK7aPaAM0b2feB2QLAn3lRDWVbR3Q-kuJwX_ptRs0IBsgSsfFUlqJroTvcZmY-IWXoTyzq5LEDYRkL-xTcUEYViI0iGhhFBJ=s1600"
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/CarRentalProfile/image01.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/CarRentalProfile/image02.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/CarRentalProfile/image03.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/CarRentalProfile/image04.png",
+        "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/CarRentalProfile/image05.png"
       ],
-      "imageProfile": "https://lh3.googleusercontent.com/drive-viewer/AK7aPaB6MzEm1eHin0MRlIBumI3UJuUNA5MnKepPEtdWShOB4HDSpyFKpQJqNK_0jXgpOuNWHUcwLtBvE5JDT1Wt4Fdn63Ymrg=s1600",
+      "imageProfile": "https://marcmamaradloportfolio.s3.ap-southeast-1.amazonaws.com/Portfolio/CarRentalProfile/CarRentalProfile.jpg",
       "framework": "reactjs",
       "text": "This website is a Next JS code along exercise from YouTube. ",
       "description": "This website is a Next JS code along exercise from YouTube. ",
-      "tech": ["NextJS", "ReactJS", "Vercel", "Github", "API", "HTML", "CSS"]
+      "tech": ["NextJS", "ReactJS", "Vercel", "Github", "API", "HTML", "CSS"],
+      "url": ""
     }
   ]
 }

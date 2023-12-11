@@ -1,5 +1,9 @@
+import { Link } from "react-router-dom";
+import { useContext } from "react";
+
 import projectsJSON from "../projects.json";
 import PrimaryButton from "../buttons/PrimaryButton";
+import { MyContext } from "../../context/context";
 
 const AllProjects = ({
   sampleImage,
@@ -8,7 +12,8 @@ const AllProjects = ({
   submit,
   ref,
 }) => {
-  // console.log(ref);
+  const context = useContext(MyContext);
+  const setHomePageTrue = context.setHomePageTrue;
 
   const showItems = () => {
     return projectsJSON.name.map((item, index) => (
@@ -32,12 +37,13 @@ const AllProjects = ({
           className={sampleImage === item.name ? "" : "visibility-none"}
         >
           <h3>{item.name}</h3>
-          <PrimaryButton
-            // eslint-disable-next-line
-            style={"primary-button"}
-            text={"View Page"}
-            action={submit}
-          />
+          <Link to={`/project/${item.name}`}>
+            <PrimaryButton
+              style={`primary-button`}
+              text={`View Page`}
+              action={setHomePageTrue}
+            />
+          </Link>
           <p>{item.text}</p>
         </div>
       </div>

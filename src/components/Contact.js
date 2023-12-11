@@ -56,7 +56,7 @@ const Contact = () => {
       <div className="contact">
         <h2>{`<Contact/>`}</h2>
         <div className="contact-text">
-          <p>Hire me or collaborate, send me a message!</p>
+          <p>Hire me or collaborate, send me an email.</p>
         </div>
         <div className="contact-form-container">
           <form ref={form} onSubmit={formik.handleSubmit}>
@@ -86,7 +86,7 @@ const Contact = () => {
               }
               onChange={formik.handleChange}
               value={formik.values.name}
-              placeholder="Jose Rizal"
+              placeholder="Mohammad Lee"
             />
 
             <label htmlFor="email">

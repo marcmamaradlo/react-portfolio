@@ -21,27 +21,31 @@ const Modal = ({ handleCloseModal, dataName }) => {
 
   return (
     <div className="container">
-      <div className="modal">
-        <div className="modal-header">
-          <div className="modal-title">
-            <h4>{data.name}</h4>
+      <div className="modal-background">
+        <div className="modal">
+          <div className="modal-header">
+            <div className="modal-title">
+              <h4>{data.name}</h4>
+            </div>
+            <i onClick={handleCloseModal} className="fa-solid fa-xmark"></i>
           </div>
-          <i onClick={handleCloseModal} className="fa-solid fa-xmark"></i>
-        </div>
-        <div className="modal-container">
-          <div className="modal-banner">
-            <img src={handleImageBanner()} alt={data.name} />
+          <div className="modal-container">
+            <div className="modal-banner">
+              <img src={handleImageBanner()} alt={data.name} />
+            </div>
+            <div className="modal-image-carousel">
+              {handleImageInCarousel()}
+            </div>
+            <div className="modal-description">
+              <p>
+                {data.text}
+                <br />
+                <br />
+                {data.description}
+              </p>
+            </div>
+            <div className="modal-tech">{handleTech()}</div>
           </div>
-          <div className="modal-image-carousel">{handleImageInCarousel()}</div>
-          <div className="modal-description">
-            <p>
-              {data.text}
-              <br />
-              <br />
-              {data.description}
-            </p>
-          </div>
-          <div className="modal-tech">{handleTech()}</div>
         </div>
       </div>
     </div>
