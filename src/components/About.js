@@ -49,7 +49,13 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="about-me-skill-container"></div>
+        {/* <div className="about-me-skill-container">
+          <i className="fa-brands fa-react"></i>
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-bootstrap"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-html5"></i>
+        </div> */}
       </section>
     </div>
   );

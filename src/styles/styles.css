@@ -325,6 +325,11 @@ summary,
   width: 100%;
 }
 
+.about-me-skill-container i {
+  font-size: 2.5rem;
+  margin-right: 1rem;
+}
+
 .about-me-pogression-bar {
   display: flex;
   align-items: center;
@@ -1160,7 +1165,7 @@ summary,
   }
 
   .projects-container {
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: unset;
     flex-wrap: wrap;
     width: 100%;
@@ -1307,6 +1312,10 @@ summary,
   .projects-container-image {
     width: 23rem;
     height: 32rem;
+  }
+
+  .projects-container div {
+    margin-right: 1rem;
   }
 
   .modal {

@@ -7,11 +7,9 @@ class MyProvider extends Component {
 
   setHomePageTrue = () => {
     this.setState({ homePage: true });
-    console.log(this.state.homePage);
   };
   setHomePageFalse = () => {
     this.setState({ homePage: false });
-    console.log(this.state.homePage);
   };
 
   render() {
