@@ -56,7 +56,11 @@ const Contact = () => {
       <div className="contact">
         <h2>{`<Contact/>`}</h2>
         <div className="contact-text">
-          <p>Hire me or collaborate, send me an email.</p>
+          <p>
+            If you are interested in hiring me or working with me, please feel
+            free to contact me via email or through my social media accounts. I
+            look forward to hearing from you soon!
+          </p>
         </div>
         <div className="contact-form-container">
           <form ref={form} onSubmit={formik.handleSubmit}>
