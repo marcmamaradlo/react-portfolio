@@ -4,6 +4,7 @@ import ReactParticles from "./components/ReactParticles";
 import Home from "./components/Home";
 import DynamicPage from "./components/Dynamic-Page";
 import About from "./components/About";
+import PageNotFound from "./components/PageNotFound";
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/project/:name" element={<DynamicPage />} />
             <Route path="/about/" element={<About />} />
-            {/* <Route path="*" element={<PageNotFound />} /> */}
+            <Route path="*" element={<PageNotFound />} />
           </Routes>
         </BrowserRouter>
       </MyProvider>

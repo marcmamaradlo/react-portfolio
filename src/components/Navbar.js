@@ -1,9 +1,8 @@
 import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import { MyContext } from "../context/context";
-// import PrimaryButton from "./buttons/PrimaryButton";
 
-const Navbar = ({ name }) => {
+const Navbar = () => {
   const context = useContext(MyContext);
   const state = context.state;
   const setHomePageFalse = context.setHomePageFalse;

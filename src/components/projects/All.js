@@ -9,7 +9,6 @@ const AllProjects = ({
   sampleImage,
   handleMouseEnter,
   handleMouseLeave,
-  submit,
   ref,
 }) => {
   const context = useContext(MyContext);
@@ -52,5 +51,4 @@ const AllProjects = ({
 
   return <>{showItems()}</>;
 };
-
 export default AllProjects;

@@ -824,6 +824,38 @@ summary,
 
 /* DYNAMIC PAGE END */
 
+/* 404 PAGE START */
+.container-404 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  height: 55vh;
+  width: 100%;
+  /* background-color: #dddddd; */
+  color: #dddddd;
+}
+
+.container-404 h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.container-404 p {
+  font-size: 1.5rem;
+}
+
+.container-404 a {
+  color: #dddddd;
+  text-decoration: none;
+}
+
+.container-404 a:hover {
+  text-decoration: underline;
+}
+/* 404 PAGE END */
+
 /* LOADER-SPINNER START */
 .lds-roller {
   display: inline-block;
@@ -1287,6 +1319,10 @@ summary,
 
   .dynamic-page-banner {
     margin-top: 5rem;
+  }
+
+  .container-404 {
+    height: 62vh;
   }
 }
 

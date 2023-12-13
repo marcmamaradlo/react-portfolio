@@ -32,28 +32,6 @@ const Projects = () => {
     setModalActive(true);
   };
 
-  // const handleCloseModal = () => {
-  //   setModalActive(false);
-  // };
-
-  // const handleModal = () => {
-  //   document.body.style.overflowY = "hidden";
-
-  //   const dataName = projectsJSON.name.filter(
-  //     (obj) => obj.name === sampleImage
-  //   );
-
-  //   return dataName.map((item) =>
-  //     modalActive ? (
-  //       <Modal
-  //         handleCloseModal={handleCloseModal}
-  //         dataName={item}
-  //         key={dataName.id}
-  //       />
-  //     ) : null
-  //   );
-  // };
-
   useEffect(() => {
     setSampleImage("");
     // eslint-disable-next-line
@@ -96,19 +74,13 @@ const Projects = () => {
           />
         </div>
         <div className="projects-container">
-          {projectButtons === "all" ? (
-            <AllProjects
-              sampleImage={sampleImage}
-              handleMouseEnter={handleMouseEnter}
-              handleMouseLeave={handleMouseLeave}
-              submit={handleButtons}
-            />
-          ) : projectButtons === "javascript" ? (
+          {projectButtons === "javascript" ? (
             <Javascript
               sampleImage={sampleImage}
               handleMouseEnter={handleMouseEnter}
               handleMouseLeave={handleMouseLeave}
               submit={handleButtons}
+              projectButtons={projectButtons}
             />
           ) : projectButtons === "reactjs" ? (
             <Reactjs
@@ -116,6 +88,7 @@ const Projects = () => {
               handleMouseEnter={handleMouseEnter}
               handleMouseLeave={handleMouseLeave}
               submit={handleButtons}
+              projectButtons={projectButtons}
             />
           ) : (
             <AllProjects
@@ -123,6 +96,7 @@ const Projects = () => {
               handleMouseEnter={handleMouseEnter}
               handleMouseLeave={handleMouseLeave}
               submit={handleButtons}
+              projectButtons={projectButtons}
             />
           )}
         </div>

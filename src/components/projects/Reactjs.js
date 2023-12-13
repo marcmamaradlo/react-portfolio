@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { MyContext } from "../../context/context";
+
 import projectsJSON from "../projects.json";
 import PrimaryButton from "../buttons/PrimaryButton";
 
-const Reactjs = ({
-  sampleImage,
-  handleMouseEnter,
-  handleMouseLeave,
-  submit,
-}) => {
+const Reactjs = ({ sampleImage, handleMouseEnter, handleMouseLeave, ref }) => {
+  const context = useContext(MyContext);
+  const setHomePageTrue = context.setHomePageTrue;
+
   const jsFrameworks = projectsJSON.name.filter(
     (obj) => obj.framework === "reactjs"
   );
@@ -26,23 +28,21 @@ const Reactjs = ({
         className="projects-container-image"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
+        ref={ref}
       >
         <div
           id={item.name}
           className={sampleImage === item.name ? "" : "visibility-none"}
         >
           <h3>{item.name}</h3>
-          <PrimaryButton
-            // eslint-disable-next-line
-            style={"primary-button"}
-            text={"View Page"}
-            action={submit}
-          />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus
-            in ornare quam viverra orci sagittis.
-          </p>
+          <Link to={`/project/${item.name}`}>
+            <PrimaryButton
+              style={`primary-button`}
+              text={`View Page`}
+              action={setHomePageTrue}
+            />
+          </Link>
+          <p>{item.text}</p>
         </div>
       </div>
     ));

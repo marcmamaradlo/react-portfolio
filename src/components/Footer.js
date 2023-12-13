@@ -10,10 +10,10 @@ const Footer = () => {
 
       <div className="footer-icon-container">
         <div className="footer-content">
-          <a href="*">
+          <a href="https://www.facebook.com/marc.mamaradlo.3/">
             <i className="fa-brands fa-facebook-f"></i>
           </a>
-          <a href="*">
+          <a href="https://www.instagram.com/marcmamaradlo/">
             <i className="fa-brands fa-instagram"></i>
           </a>
           <a href="*">

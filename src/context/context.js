@@ -2,7 +2,7 @@ import React, { Component } from "react";
 const MyContext = React.createContext();
 class MyProvider extends Component {
   state = {
-    homePage: false,
+    homePage: false, // default: true,
   };
 
   setHomePageTrue = () => {

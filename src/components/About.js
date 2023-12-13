@@ -1,26 +1,6 @@
-import profilePic from "./assets/profilePicture.png";
-// import ProgressBar from "./assets/progress-bar";
+// import profilePic from "./assets/fbProfile.png";
 
 const About = () => {
-  //   const skillsVaiables = [
-  //     "HTML",
-  //     "CSS",
-  //     "Javascipt",
-  //     "React JS",
-  //     "Bootstrap",
-  //     "Tailwind",
-  //   ];
-
-  // const showSkills = () => {
-  //   return skillsVaiables.map((item, index) => (
-  //     <div className="about-me-pogression-bar" key={index}>
-  //       <p>{item}</p>
-  //       <ProgressBar />
-  //       <p>0K</p>
-  //     </div>
-  //   ));
-  // };
-
   return (
     <div className="container" id="about">
       <section className="about">
@@ -57,9 +37,9 @@ const About = () => {
           </div>
         </div>
         <div className="about-me-container">
-          <div className="about-me">
+          {/* <div className="about-me">
             <img src={profilePic} alt="Profile" />
-          </div>
+          </div> */}
           <div className="about-skills">
             <h3 className="text-align-center">Who am I?</h3>
             <p>
@@ -69,11 +49,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="about-me-skill-container">
-          {
-            // showSkills()
-          }
-        </div>
+        <div className="about-me-skill-container"></div>
       </section>
     </div>
   );
