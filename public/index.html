@@ -9,6 +9,39 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
+    <!-- Google Search Console START -->
+    <meta
+      name="google-site-verification"
+      content="FFBlInmgkXDKa5-BA0bz3eE4nBSmkarZle6hPRrxkBs"
+    />
+    <!-- Google Search Console END -->
+
+    <!-- reCAPTCHA START -->
+    <!-- <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdTCUQpAAAAAA68sPiebpJ9-bmg5IJDFWcJORCk"></script> -->
+    <script src="http://www.google.com/recaptcha/api.js?render=6LczKkQpAAAAAMJOdFxdjZxrviSPw9-UZ0Bbwz5K"></script>
+    <script>
+      grecaptcha.ready(function () {
+        grecaptcha
+          .execute("6LczKkQpAAAAAMJOdFxdjZxrviSPw9-UZ0Bbwz5K", {
+            action: "homepage",
+          })
+          .then(function (token) {
+            var recaptchaSecret = { recaptchaSecret };
+            var responseString =
+              "https://www.google.com/recaptcha/api/siteverify?secret=" +
+              recaptchaSecret +
+              "&response=" +
+              token;
+            $.ajax({
+              url: responseString,
+              //your code
+            });
+          });
+      });
+    </script>
+
+    <!-- reCAPTCHA START -->
+
     <!-- FONT AWESOME START -->
     <link
       rel="stylesheet"
