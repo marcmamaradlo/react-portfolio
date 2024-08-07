@@ -51,6 +51,10 @@ const Contact = () => {
     },
   });
 
+  const onSubmit = (token) => {
+    document.getElementById("contact-form").submit();
+  };
+
   return (
     <div className="container" id="contact">
       <div className="contact">
@@ -63,7 +67,7 @@ const Contact = () => {
           </p>
         </div>
         <div className="contact-form-container">
-          <form ref={form} onSubmit={formik.handleSubmit}>
+          <form ref={form} onSubmit={formik.handleSubmit} id="contact-form">
             {status === "sending" && (
               <div style={{ color: "blue" }}>sending...</div>
             )}
@@ -131,13 +135,27 @@ const Contact = () => {
               }
               placeholder="Message"
             />
-            <div className="">
-              <SecondaryButton
-                type={`submit`}
-                style={`contact-button`}
-                id={`submit-button`}
-                text={`Submit`}
-              />
+            <div>
+              <div className="captcha">
+                <button
+                  // className="g-recaptcha"
+                  className="contact-button"
+                  // data-sitekey="6LdTCUQpAAAAAA68sPiebpJ9-bmg5IJDFWcJORCk"
+                  data-sitekey="6LczKkQpAAAAAMJOdFxdjZxrviSPw9-UZ0Bbwz5K"
+                  data-callback="onSubmit"
+                  data-action="submit"
+                >
+                  Submit
+                </button>
+              </div>
+              {/* <div className="">
+                <SecondaryButton
+                  type={`submit`}
+                  style={`contact-button`}
+                  id={`submit-button`}
+                  text={`Submit`}
+                />
+              </div> */}
             </div>
           </form>
         </div>

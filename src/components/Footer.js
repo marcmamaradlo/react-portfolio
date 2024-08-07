@@ -22,19 +22,19 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-extras">
-        <div className="need-a-website">
+        {/* <div className="need-a-website">
           <p>
             Need a website? <a href="#contact">send me an email</a>
           </p>
-        </div>
-        <div className="SimpleCodesPH">
+        </div> */}
+        {/* <div className="SimpleCodesPH">
           <p>
             This website is owned by{" "}
             <a href="https://www.facebook.com/profile.php?id=100091145376427">
               SimpleCodesPH
             </a>
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
