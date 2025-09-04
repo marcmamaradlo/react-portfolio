@@ -1122,14 +1122,32 @@ summary,
 /* Larger than mobile */
 @media (min-width: 400px) {
   .projects-container {
-    gap: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: auto;
+  }
+
+  .projects-container div {
+    aspect-ratio: 9 / 16;
+    width: 47%;
+    height: 100%;
   }
 
   .project-button-active {
     min-width: 13.3rem;
   }
   .projects-container-image {
-    width: 35.7rem;
+    width: 100%;
+    height: 100;
+  }
+
+  .projects-container div div {
+    border: 1px solid white;
+    width: 100%;
+    padding: 0 0.2rem;
   }
 }
 
@@ -1170,20 +1188,33 @@ summary,
   }
 
   .projects-container {
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-direction: unset;
     flex-wrap: wrap;
     width: 100%;
-    gap: 2rem;
+    gap: auto;
+  }
+
+  .projects-container div {
+    width: 47%;
   }
 
   .projects-container-image {
-    width: 23.5rem;
-    height: 30rem;
+    /* width: 23.5rem; */
+    /* height: 30rem; */
+    aspect-ratio: 9 / 16;
+    width: 100%;
+    height: 100%;
   }
 
   .projects-container-image p {
     display: none;
+  }
+
+  .projects-container div div {
+    border: 1px solid white;
+    width: 100%;
+    padding: 0;
   }
 
   .modal {
@@ -1206,6 +1237,18 @@ summary,
 
   .projects-container-image p {
     display: block;
+  }
+
+  .projects-container {
+    justify-content: unset;
+  }
+
+  .projects-container div {
+    width: 32%;
+  }
+
+  .projects-container div div {
+    padding: 0 1rem;
   }
 
   .modal {
@@ -1300,7 +1343,7 @@ summary,
   .container,
   .navbar,
   .footer-content {
-    width: 50%;
+    width: 70%;
   }
 
   .navbar {
@@ -1315,9 +1358,13 @@ summary,
     width: 35rem;
   }
 
+  .projects-container div {
+    width: 24%;
+  }
+
   .projects-container-image {
-    width: 23rem;
-    height: 32rem;
+    width: 100%;
+    height: 100%;
   }
 
   /* .projects-container div {
@@ -1329,7 +1376,7 @@ summary,
   }
 
   .contact-form-container form {
-    width: 70%;
+    width: 100%;
   }
 
   .dynamic-page-banner {
