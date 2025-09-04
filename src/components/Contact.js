@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 
-import SecondaryButton from "./buttons/SecondaryButton";
+// import SecondaryButton from "./buttons/SecondaryButton";
 import LoaderSpinner from "./assets/loader-spinner";
 
 const Contact = () => {
@@ -51,9 +51,9 @@ const Contact = () => {
     },
   });
 
-  const onSubmit = (token) => {
-    document.getElementById("contact-form").submit();
-  };
+  // const onSubmit = (token) => {
+  //   document.getElementById("contact-form").submit();
+  // };
 
   return (
     <div className="container" id="contact">
